@@ -18,7 +18,7 @@
 # Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 # Boston, MA 02111-1307, USA.
 
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
 from bs4 import BeautifulSoup
 import urllib
 import urllib.parse
@@ -27,6 +27,9 @@ from langdetect import detect
 import logging
 import os
 import threading
+
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError
 
 def init_logging(del_logs):
     logfile = 'crawler.log'
@@ -74,10 +77,10 @@ def crawl_page(url, group):
             errors='replace'
         )
         
-    #    print(content)
+        handle.close()
         soup = BeautifulSoup(html, 'lxml')
         language =  detect(soup.text)
-        line = f"--{url},{group},{language}"
+        line = f"--{url},{group},{language}"       
 #        print(line)
         with lock:
 	        with open(URLS_FILE, 'a') as file:
@@ -101,7 +104,7 @@ def main():
     if os.path.isfile(URLS_FILE):
         os.remove(URLS_FILE)
         
-    with open('data/202211.csv') as fh, ThreadPoolExecutor(max_workers=50) as executor:
+    with open('data/202211.csv') as fh, ThreadPoolExecutor(max_workers=5) as executor:
         for line in fh:
             line = line.rstrip()
             if len(line) < LEN_PROTOCOL or line[0:LEN_PROTOCOL].lower() != PROTOCOL:
@@ -109,14 +112,15 @@ def main():
                 continue
 
             url, group = line.split(",")
-            executor.submit(crawl_page, url, group)
-#            crawl_page(url)
+#            executor.submit(crawl_page, url, group)
+#            print(cnt)
+            crawl_page(url, group)
             cnt += 1
-            if cnt % 100 == 0:
+            if cnt % 1000 == 0:
                 print(f"Processed {cnt} lines")
             
-            if cnt > 1000:
-                break
+#            if cnt > 1000:
+#                break
 
 if __name__ == "__main__":
     main()
