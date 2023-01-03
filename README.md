@@ -30,7 +30,7 @@ Cal considerar que:
 # Reflexions
 
 * Les dades originals tenen alguns resultats sorprenents, com ara veure https://www.xapes.net o https://www.basquetcatala.cat al mateix nivell que els diaris digitals. 
-* Qualsevol dada addicional, malgrat que no sigui 100% acurada, és útil si ens ajuda aportar noves perspectives d'on som com a comunitat de parlants
+* Qualsevol dada addicional, malgrat que no sigui 100% acurada, és útil si ens ajuda a aportar noves perspectives d'on som com a comunitat de parlants
 
 # Fitxer
 
