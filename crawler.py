@@ -18,7 +18,7 @@
 # Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 # Boston, MA 02111-1307, USA.
 
-from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
+
 from bs4 import BeautifulSoup
 import urllib
 import urllib.parse
@@ -27,9 +27,8 @@ from langdetect import detect
 import logging
 import os
 import threading
-
-from urllib.request import Request, urlopen
-from urllib.error import HTTPError
+from threading import Thread
+import datetime
 
 def init_logging(del_logs):
     logfile = 'crawler.log'
@@ -66,22 +65,31 @@ URLS_FILE = "urls.txt"
 
 def crawl_page(url, group):
     try:
+        
         headers = {"User-Agent": "Mozilla/5.0"}
 #                   "Accept-Language" : "ca,en-US;q=0.7,en;q=0.3"}
                    
         request = urllib.request.Request(url, headers=headers)
         handle = urllib.request.build_opener()
         html = str(
-            handle.open(request, timeout=10).read(),
+            handle.open(request, timeout=30).read(),
             'utf-8',
             errors='replace'
         )
         
         handle.close()
         soup = BeautifulSoup(html, 'lxml')
-        language =  detect(soup.text)
-        line = f"--{url},{group},{language}"       
-#        print(line)
+        text = soup.text
+        words = len(text.split())
+
+        if words > 100:
+            language =  detect(soup.text)
+        else:
+            language = "unknown"
+
+        line = f"{url},{group},{language}"       
+     #   print(line)
+        logging.debug(f"{url},{group},{language}, {words}")
         with lock:
 	        with open(URLS_FILE, 'a') as file:
 		        file.write(line + "\n")
@@ -91,20 +99,28 @@ def crawl_page(url, group):
 
         with lock:
             with open(URLS_FILE, 'a') as file:
-                line = f"--{url}, error"
+                line = f"{url}, error"
                 file.write(line + "\n")
+                
+def _get_urls_per_second(start_time, urls):
+    time = datetime.datetime.now() - start_time
+    total_seconds = time.total_seconds()
+    urls_second = urls / total_seconds if total_seconds > 0 else 0
+    return urls_second
 
 def main():
     
     init_logging(True)
     PROTOCOL = "http"
     LEN_PROTOCOL = len(PROTOCOL)
-    cnt = 0
-    
+
     if os.path.isfile(URLS_FILE):
         os.remove(URLS_FILE)
-        
-    with open('data/202211.csv') as fh, ThreadPoolExecutor(max_workers=5) as executor:
+
+    urls = 0
+    start_time = datetime.datetime.now()    
+    with open('data/202211.csv') as fh:
+        threads = []
         for line in fh:
             line = line.rstrip()
             if len(line) < LEN_PROTOCOL or line[0:LEN_PROTOCOL].lower() != PROTOCOL:
@@ -112,14 +128,24 @@ def main():
                 continue
 
             url, group = line.split(",")
-#            executor.submit(crawl_page, url, group)
-#            print(cnt)
-            crawl_page(url, group)
-            cnt += 1
-            if cnt % 1000 == 0:
-                print(f"Processed {cnt} lines")
+            thread = Thread(target=crawl_page, args=(url, group))
+            threads.append(thread)
+            thread.start()
+            urls += 1
+
+            if len(threads) > 100:
+                for thread in threads:
+                    thread.join()
+                    
+                threads = []          
             
-#            if cnt > 1000:
+#            print(cnt)
+#            crawl_page(url, group)
+            if urls % 100 == 0:
+                urls_second = _get_urls_per_second(start_time, urls)
+                print(f"URLs: {urls}. ULRs per second {urls_second:.1f}")
+            
+#            if cnt > 500:
 #                break
 
 if __name__ == "__main__":
