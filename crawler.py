@@ -23,12 +23,14 @@ from bs4 import BeautifulSoup
 import urllib
 import urllib.parse
 import urllib.request
-from langdetect import detect
+from langdetect import detect, DetectorFactory
 import logging
 import os
 import threading
 from threading import Thread
 import datetime
+
+DetectorFactory.seed = 0
 
 def init_logging(del_logs):
     logfile = 'crawler.log'
