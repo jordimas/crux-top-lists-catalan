@@ -78,9 +78,8 @@ def main():
                 continue
 
             domain, netloc = get_domain_and_netloc(url)
-            print(f"> {url} - {domain} - {netloc}")
             if domain in domains_seen:
-                print(f"Discarding {url} because already seen")
+#                print(f"Discarding {url} because already seen")
                 continue
             else:
                 domains_seen.add(domain)
