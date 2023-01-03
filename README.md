@@ -3,14 +3,15 @@
 # Introduccció
 
 
-Antecents:
+Antecedents:
 
 * Basant-se en [recerca recent](https://zakird.com/papers/toplists.pdf) es determina que la llista del navegador Chrome de llocs web en memòria cau és la manera més sòlida per a entendre quins són les web més populars al món
 * El projecte https://github.com/zakird/crux-top-lists pública les dades compartides per Google en format CSV perquè siguin fàcils de consumir
 # Les dades
 
 * Aquestes són les [dades de desembre 2022](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv)
-* No és propociona un ranking acurat (1,2,3) sinó que els llocs web es classifiquen en primers 1000, 5000, etc. Dins d'aquests blocs, les URL no estan ordenats
+* No és propociona un ranking acurat (1,2,3) sinó que els llocs web es classifiquen en primers 1000, 5000, etc. Dins d'aquests blocs, els URL no estan ordenats
+* Tingueu en compte que això no és una llista de webs, sinó de URLs. Per això algunes web com gencat apareix diversos cops amb diferents subdominis. 
 
 # Objectiu
 
