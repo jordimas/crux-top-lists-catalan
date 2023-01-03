@@ -4,8 +4,4 @@ https://www.elnacional.cat,5000,ca
 https://catalunyadiari.com,10000,ca
 https://educaciodigital.cat,10000,ca
 https://www.ccma.cat,10000,ca
-https://myaccount.mercadolibre.com.mx,10000,ca
-https://www.laanonimaonline.com,10000,ca
 https://www.vilaweb.cat,10000,ca
-https://es.symbolab.com,10000,ca
-https://www.un.org,10000,ca
