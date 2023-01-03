@@ -5,3 +5,8 @@ https://catalunyadiari.com,10000,ca
 https://educaciodigital.cat,10000,ca
 https://www.ccma.cat,10000,ca
 https://www.vilaweb.cat,10000,ca
+https://www.basquetcatala.cat,50000,ca
+https://www.ara.cat,50000,ca
+https://www.satuindovegas4d.info,50000,ca
+https://campusvirtual.urv.cat,50000,ca
+https://www.gva.es,50000,ca
