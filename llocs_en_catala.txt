@@ -1,4 +1,4 @@
-https://aules.edu.gva.es,5000,ca
+# Proccesed 22721 of a total of 1000000https://aules.edu.gva.es,5000,ca
 https://www.fcf.cat,5000,ca
 https://www.elnacional.cat,5000,ca
 https://catalunyadiari.com,10000,ca
@@ -12,6 +12,5 @@ https://www.gva.es,50000,ca
 https://www.xapes.net,50000,ca
 https://web.gencat.cat,50000,ca
 https://portal.edu.gva.es,50000,ca
-https://www.meteomaroc.com,50000,ca
 https://www.softcatala.org,50000,ca
 https://www.naciodigital.cat,50000,ca

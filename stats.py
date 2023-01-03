@@ -28,10 +28,22 @@ def get_false_positives():
 
     return falses
 
+def file_len(fname):
+    with open(fname) as f:
+        for i, l in enumerate(f):
+            pass
+    return i + 1
+
 def main():
+
+    total_urls = file_len('data/202211.csv') - 1
+    processed =  file_len('urls.txt')
     
     false_positives = get_false_positives()
     with open('urls.txt') as fh, open('llocs_en_catala.txt', 'w') as fh_catalan:
+        line = f"# Proccesed {processed} of a total of {total_urls}"
+        print(line)
+        fh_catalan.write(line)
         for line in fh:
             components = line.split(",")
 
