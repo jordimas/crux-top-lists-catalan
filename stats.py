@@ -33,7 +33,6 @@ def main():
     false_positives = get_false_positives()
     with open('urls.txt') as fh, open('llocs_en_catala.txt', 'w') as fh_catalan:
         for line in fh:
-            line = line.rstrip()
             components = line.split(",")
 
             if len(components) != 3:
@@ -41,7 +40,7 @@ def main():
         
             url = components[0]
             ranking = components[1]
-            lang = components[2]
+            lang = components[2].rstrip()
 
 
             if lang != "ca":
@@ -51,7 +50,7 @@ def main():
             if url in false_positives:
                 continue
 
-            print(line)
+            print(line.rstrip())
             fh_catalan.write(line)
 
 
