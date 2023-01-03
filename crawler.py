@@ -133,7 +133,7 @@ def main():
             thread.start()
             urls += 1
 
-            if len(threads) > 100:
+            if len(threads) > 200:
                 for thread in threads:
                     thread.join()
                     
