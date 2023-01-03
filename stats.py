@@ -18,6 +18,8 @@
 # Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 # Boston, MA 02111-1307, USA.
 
+from urllib.parse import urlparse
+
 def get_false_positives():
     falses = set()
     with open('falsos_positius.txt') as fh:
@@ -34,12 +36,26 @@ def file_len(fname):
             pass
     return i + 1
 
+def get_domain_and_netloc(url):
+    netloc = urlparse(url).netloc
+    
+    if netloc.count(".") >= 2:
+        first = netloc.index(".") + 1
+        second = netloc.index(".", first + 1)
+        domain = netloc[first:second]
+    else:
+        domain = netloc
+
+    return domain, netloc
+
 def main():
 
     total_urls = file_len('data/202211.csv') - 1
     processed =  file_len('urls.txt')
     
     false_positives = get_false_positives()
+    
+    domains_seen = set()
     with open('urls.txt') as fh, open('llocs_en_catala.txt', 'w') as fh_catalan:
         line = f"# Proccesed {processed} of a total of {total_urls}"
         print(line)
@@ -57,15 +73,20 @@ def main():
 
             if lang != "ca":
                 continue
-
-            #print(f"url:'{url}'")
+                            
             if url in false_positives:
                 continue
 
+            domain, netloc = get_domain_and_netloc(url)
+            print(f"> {url} - {domain} - {netloc}")
+            if domain in domains_seen:
+                print(f"Discarding {url} because already seen")
+                continue
+            else:
+                domains_seen.add(domain)
+
             print(line.rstrip())
             fh_catalan.write(line)
-
-
    
 if __name__ == "__main__":
     main()
