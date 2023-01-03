@@ -7,8 +7,6 @@ Antecents:
 
 * Basant-se en [recerca recent](https://zakird.com/papers/toplists.pdf) es determina que la llista del navegador Chrome de llocs en memòria cau és la manera més sòlida per a entendre quins són les web més populars al món
 * El projecte https://github.com/zakird/crux-top-lists pública les dades compartides per Google en format CSV perquè siguin fàcils de consumir
-
-
 # Les dades
 
 * Aquestes són les [dades de desembre 2022](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv)
@@ -28,6 +26,10 @@ Cal considerar que:
 * Per determinar la llengua visiten tots aquests llocs. Alguns en el moment de visitar-los donen errors, altres no són amables amb els automatimes de baixada, etc. Alguns no es poden consultar. Veure el log d'errors
 * El mecanisme de detecció de llengua no és perfecte. En alguns casos dóna falsos positius (que filtrem) i alguns falsos negatius que ignorem
 * Addicionalment alguns lloc webs cal demanar explícitament el català o seleccionar-ho, aquests no els considerem de moment.
+
+# Reflexió
+* Les dades originals tenen alguns resultats sorprenents, com ara veure https://www.xapes.net o https://www.basquetcatala.cat al mateix nivell que els diaris digitals. 
+* Qualsevol dada addicional, malgrat no sigui 100% acurada, és útil si ens ajuda aportar noves prespectives d'on som com a comunitat de parlants
 
 # Fitxer
 
