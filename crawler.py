@@ -99,7 +99,7 @@ def crawl_page(url, group):
 
         with lock:
             with open(URLS_FILE, 'a') as file:
-                line = f"{url}, error"
+                line = f"{url},{group},error"
                 file.write(line + "\n")
                 
 def _get_urls_per_second(start_time, urls):
