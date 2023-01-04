@@ -107,7 +107,7 @@ def crawl_page(url, group):
         text = soup.text
         words = len(text.split())
 
-        if words > 50:
+        if words > 30:
             language =  detect(soup.text)
             l = len(soup.text)
             language2 = _detect_lang(url, soup.text[0:min(l, 500)])
