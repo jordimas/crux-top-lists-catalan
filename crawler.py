@@ -113,9 +113,16 @@ def crawl_page(url, group):
             language2 = _detect_lang(url, soup.text[0:min(l, 500)])
             
             if language2:
-                if ('ca'== language and 'ca'!= language2) or ('ca'!= language and 'ca'== language2):
+                new_language = language
+                if 'ca'== language and 'ca'!= language2:
+                    new_language = language2
                     logging.error(f"Inconsitant languages detected on {url}: '{language}' - '{language2}'")
-                    language = "inconsistant"
+                                                        
+                if 'ca'!= language and 'ca'== language2:
+                    new_language = language                
+                    logging.error(f"Inconsitant languages detected on {url}: '{language}' - '{language2}'")
+                
+                language = new_language
 
         else:
             language = "unknown"
