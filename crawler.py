@@ -29,7 +29,7 @@ import os
 import threading
 from threading import Thread
 import datetime
-from lingua import Language, LanguageDetectorBuilder, IsoCode639_1
+from lingua import Language, LanguageDetectorBuilder
 
 DetectorFactory.seed = 0
 

@@ -25,7 +25,7 @@ Crear una llista filtrada (de moment primers 50.000 llocs) que inclogui els lloc
 
 Cal considerar que:
 * Per determinar la llengua visiten tots aquests llocs. Alguns en el moment de visitar-los donen errors, altres no són amables amb els automatismes de baixada, etc. Alguns no es poden consultar. Veure el log d'errors
-* El mecanisme de detecció de llengua no és perfecte. En alguns casos dóna falsos positius (que filtrem) i alguns falsos negatius que ignorem
+* Els mecanismes de detecció de llengua no són perfectes. Usen dos mecanismes diferents i només determinem que és en català si el dos donen aquesta predicció
 * Addicionalment alguns lloc webs cal demanar explícitament el català o seleccionar-ho, aquests no els considerem de moment.
 
 # Reflexions
@@ -33,10 +33,11 @@ Cal considerar que:
 * Les dades originals tenen alguns resultats sorprenents, com ara veure https://www.xapes.net o https://www.basquetcatala.cat al mateix nivell que els diaris digitals. 
 * Qualsevol dada addicional, malgrat que no sigui 100% acurada, és útil si ens ajuda a aportar noves perspectives d'on som com a comunitat de parlants
 
-# Fitxer
+# Fitxers
 
-* [llocs_en_catala.txt](llocs_en_catala.txt) conté el filtrat de llistats en català
-
+* [urls.txt](crawling/urls.txt) conté tots els URLs que hem baixat amb la predicció de la llengua en que estan
+* [urls.txt](crawling/crawler-error.log) els errors produïts durant el procés de baixada de les pàgines
+* [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat per [stats.py](stats.py)
 
 
 
