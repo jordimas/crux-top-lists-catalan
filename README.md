@@ -36,7 +36,7 @@ Cal considerar que:
 # Fitxers
 
 * [urls.txt](crawling/urls.txt) conté tots els URLs que hem baixat amb la predicció de la llengua en que estan
-* [urls.txt](crawling/crawler-error.log) els errors produïts durant el procés de baixada de les pàgines
+* [crawler-error.log](crawling/crawler-error.log) els errors produïts durant el procés de baixada de les pàgines
 * [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat per [stats.py](stats.py)
 
 
