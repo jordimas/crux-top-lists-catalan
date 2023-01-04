@@ -114,7 +114,7 @@ def crawl_page(url, group):
             
             if language2:
                 if ('ca'== language and 'ca'!= language2) or ('ca'!= language and 'ca'== language2):
-                    logging.error(f"Error on {url}: inconsitant languages detected '{language}' - '{language2}'")
+                    logging.error(f"Inconsitant languages detected on {url}: '{language}' - '{language2}'")
                     language = "inconsistant"
 
         else:
