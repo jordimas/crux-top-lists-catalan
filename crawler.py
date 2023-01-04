@@ -84,7 +84,7 @@ def crawl_page(url, group):
         text = soup.text
         words = len(text.split())
 
-        if words > 100:
+        if words > 50:
             language =  detect(soup.text)
         else:
             language = "unknown"
