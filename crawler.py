@@ -29,6 +29,7 @@ import os
 import threading
 from threading import Thread
 import datetime
+from lingua import Language, LanguageDetectorBuilder, IsoCode639_1
 
 DetectorFactory.seed = 0
 
@@ -65,6 +66,28 @@ lock = threading.Lock()
 
 URLS_FILE = "urls.txt"
 
+def _detect_lang(url, text):
+      
+    try:
+    
+        languages = [Language.CATALAN, Language.ENGLISH]
+        detector = LanguageDetectorBuilder.from_languages(*languages).build()
+#        detector = LanguageDetectorBuilder.from_all_languages().build()
+        
+        result = detector.detect_language_of(text)
+        
+        if result:
+            r =  str(result.iso_code_639_1).lower()
+            first = r.index(".") + 1
+            return r[first:]
+            
+        return result
+        
+    except Exception as e:
+#        print(f"  Error detecting language for {url}: {e}")
+        return None
+        
+
 def crawl_page(url, group):
     try:
         
@@ -86,6 +109,13 @@ def crawl_page(url, group):
 
         if words > 50:
             language =  detect(soup.text)
+            l = len(soup.text)
+            language2 = _detect_lang(url, soup.text[0:min(l, 500)])
+            
+            if 'ca'== language and 'ca'== language2:
+                language = "inconsistant"
+                logging.error(f"Error on {url}: inconsitant languages detected {language} - {language2}")
+            
         else:
             language = "unknown"
 
