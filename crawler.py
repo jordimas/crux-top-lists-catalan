@@ -89,7 +89,7 @@ def crawl_page(url, group):
         else:
             language = "unknown"
 
-        line = f"{url},{group},{language}"       
+        line = f"{url},{group},{language}"
      #   print(line)
         logging.debug(f"{url},{group},{language}, {words}")
         with lock:
@@ -120,7 +120,8 @@ def main():
         os.remove(URLS_FILE)
 
     urls = 0
-    start_time = datetime.datetime.now()    
+    start_time = datetime.datetime.now()
+    singleThread = False
     with open('data/202211.csv') as fh:
         threads = []
         for line in fh:
@@ -130,19 +131,21 @@ def main():
                 continue
 
             url, group = line.split(",")
-            thread = Thread(target=crawl_page, args=(url, group))
-            threads.append(thread)
-            thread.start()
-            urls += 1
-
-            if len(threads) > 200:
-                for thread in threads:
-                    thread.join()
-                    
-                threads = []          
             
-#            print(cnt)
-#            crawl_page(url, group)
+            if singleThread:
+                crawl_page(url, group)
+            else:
+                thread = Thread(target=crawl_page, args=(url, group))
+                threads.append(thread)
+                thread.start()
+
+                if len(threads) > 200:
+                    for thread in threads:
+                        thread.join()
+
+                    threads = []
+
+            urls += 1
             if urls % 100 == 0:
                 urls_second = _get_urls_per_second(start_time, urls)
                 print(f"URLs: {urls}. ULRs per second {urls_second:.1f}")
