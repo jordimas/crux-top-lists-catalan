@@ -5,35 +5,43 @@
 
 Antecedents:
 
-* A finals de 2022 es pubica [un article de recerca](https://zakird.com/papers/toplists.pdf) on es conclou que la manera més fiable per a entendre quins són els webs més populars al món és una la llista que publica Google dels llocs web que els usuaris tenen en memòria la cau del navegador Chrome. 
-* El projecte https://github.com/zakird/crux-top-lists pública les dades compartides per Google en format CSV perquè siguin fàcils de consumir
+* A finals de 2022 es pubica [un article de recerca](https://zakird.com/papers/toplists.pdf) on es conclou, que la manera més fiable per a determinar quins són els webs més populars al món, és usar la llista que publica Google dels llocs web que els usuaris tenen en memòria la cau del navegador Chrome. 
+* El projecte https://github.com/zakird/crux-top-lists pública les dades compartides per Google en format CSV perquè siguin fàcils de consumir.
 
-# Les dades
+# Dades originals usades
+
+Algunes caracterítiques de les dades:
 
 * Aquestes són les [dades de desembre 2022](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv)
-* No és propociona un ranking acurat (1,2,3) sinó que els llocs web es classifiquen en primers 1000, 5000, etc. Dins d'aquests blocs, els URL no estan ordenats
 * Tingueu en compte que això no és una llista de webs, sinó de URLs. Per això algunes web com gencat apareix diversos cops amb diferents subdominis. 
+* Inclouen només el 1 milió de llocs web més populars al món
+* No és propociona un ranking acurat (1,2,3) sinó que els URL es classifiquen en grups dels primers 1000, 5000, etc. Dins d'aquests blocs, els URL no estan ordenats
 
-# Objectiu
+#  Com volem usar aquestes dades?
 
-Ens agradaria contestar dues preguntes:
+Tenim dos objectius:
+
+1) Ens agradaria contestar dues preguntes:
 * Quin són els llocs web més populars en català?
 * Quin percentatge usen domini .cat? 
 
-Addicionalment és útil disposar d'una llista de webs en català per poder baixar-les i obtenir en el futur tots els textos.
+2) Ens és útil disposar d'una llista de webs en català per poder baixar-les i obtenir en el futur tots els textos en català a Internet.
 
 # Què hem fet 
 
-Crear una llista filtrada que inclogui els llocs que ofereixen el català per entendre com s'aplica aquesta popularitat en la nostra realitat.
+Filtrar la llista original perquè inclogui només els llocs que ofereixen el català. 
+
+Per fer això ha calgut:
+* Baixar 1 milió d'URL' i classificar-les segons la seva llengua
 
 Cal considerar que:
-* Per determinar la llengua visiten tots aquests llocs. Alguns en el moment de visitar-los donen errors, altres no són amables amb els automatismes de baixada, etc. Alguns no es poden consultar.
-* Els mecanismes de detecció de llengua no són perfectes. Usen dos mecanismes diferents i només determinem que és en català si el dos donen aquesta predicció
+* Al demanar les URL ens identifiquem com a parlants de català, el que fa que molts llocs multingües ens ofereixen la versió en català
+* Per determinar la llengua visiten tots aquests llocs. Alguns en el moment de visitar-los donen errors, altres no són amables amb els automatismes de baixada, etc. Algunes URL no es poden consultar.
+* Els mecanismes de detecció de llengua no són perfectes. Usem dos mecanismes diferents i només determinem que és en català si el dos donen aquesta predicció
 
 # Reflexions
 
-* Les dades originals tenen alguns resultats sorprenents, com ara veure https://www.xapes.net o https://www.basquetcatala.cat al mateix nivell que els diaris digitals. 
-* Qualsevol dada addicional, malgrat que no sigui 100% acurada, és útil si ens ajuda a aportar noves perspectives d'on som com a comunitat de parlants
+* Qualsevol dada addicional, malgrat que no sigui 100% acurada, és útil si ens ajuda a aportar noves perspectives d'on som com a comunitat de parlants. 
 
 # Fitxers
 
