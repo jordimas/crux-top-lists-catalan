@@ -62,7 +62,11 @@ def file_len(fname):
 def get_domain_and_netloc(url):
     netloc = urlparse(url).netloc
 
-    if netloc.count(".") >= 2:
+    if netloc.count(".") == 1: # https://twitter.com
+        first = 0
+        second = netloc.index(".", first + 1)
+        domain = netloc[first:second]
+    elif netloc.count(".") >= 2:
         first = netloc.index(".") + 1
         second = netloc.index(".", first + 1)
         domain = netloc[first:second]
