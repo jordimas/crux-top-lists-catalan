@@ -37,7 +37,7 @@ Per fer això ha calgut:
 * Baixar 1 milió d'URLs i classificar-les segons la seva llengua
 
 Cal considerar que:
-* Al demanar els URL ens identifiquem com a parlants de català, el que fa que molts llocs multingües ens ofereixen la versió en català
+* Al demanar els URL ens identifiquem com a parlants de català, així els llocs multingües ens ofereixen la versió en català
 * Per determinar la llengua visiten tots aquests llocs. Alguns en el moment de visitar-los donen errors, altres no són amables amb els automatismes de baixada, etc. Alguns URL no es poden consultar.
 * Els mecanismes de detecció de llengua no són perfectes. Usem dos mecanismes diferents i només determinem que és en català si el dos donen aquesta predicció
 
