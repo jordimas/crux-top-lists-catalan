@@ -91,14 +91,16 @@ def main():
             if len(components) != 4:
                 continue
 
-            url = components[0]
-            ranking = components[1]
+            url = components[0].rstrip()
+            group = components[1].rstrip()
             lang = components[2].rstrip()
+            redirect_url = components[3].rstrip()
 
             if lang != "ca":
                 continue
 
             if url in false_positives:
+                logging.debug(f"Discarding {url} because is a false positive")
                 continue
 
             domain, netloc = get_domain_and_netloc(url)
@@ -108,7 +110,13 @@ def main():
             else:
                 domains_seen.add(domain)
 
-            print(line.rstrip())
+            if redirect_url:
+                redirect_domain, redirect_netloc = get_domain_and_netloc(redirect_url)
+                if redirect_domain != domain:
+                    logging.debug(f"Discarding because diferent domains: {url} because redirects to {redirect_url}")
+                    continue
+
+            print(f"{url},{group}")
             fh_catalan.write(line)
 
 if __name__ == "__main__":
