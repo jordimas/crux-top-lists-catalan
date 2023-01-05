@@ -93,6 +93,8 @@ def _write_file_line(line):
             file.write(line + "\n")
 
 def crawl_page(url, group):
+
+    new_url = ""
     try:
 
         headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
@@ -100,11 +102,17 @@ def crawl_page(url, group):
 
         request = urllib.request.Request(url, headers=headers)
         handle = urllib.request.build_opener()
+        op = handle.open(request, timeout=30)
         html = str(
-            handle.open(request, timeout=30).read(),
+            op.read(),
             'utf-8',
             errors='replace'
         )
+        
+        final_url = op.geturl()
+        if final_url != url:
+            logging.error(f"Redirect {url} to {final_url}")
+            new_url = final_url
 
         handle.close()
         soup = BeautifulSoup(html, 'lxml')
@@ -131,14 +139,14 @@ def crawl_page(url, group):
         else:
             language = "unknown"
 
-        line = f"{url},{group},{language}"
-     #   print(line)
+        line = f"{url},{group},{language},{new_url}"
+#        print(line)
         logging.debug(f"{url},{group},{language}, {words}")
         _write_file_line(line)
 
     except Exception as e:
         logging.error(f"Error on {url}: {e}")
-        line = f"{url},{group},error"
+        line = f"{url},{group},error,{new_url}"
         _write_file_line(line)
 
 def _get_urls_per_second(start_time, urls):
