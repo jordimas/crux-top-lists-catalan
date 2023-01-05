@@ -165,7 +165,7 @@ def main():
 
     urls = 0
     start_time = datetime.datetime.now()
-    singleThread = False
+    singleThread = True
     with open('data/202211.csv') as fh:
         threads = []
         for line in fh:

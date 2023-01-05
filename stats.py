@@ -63,7 +63,7 @@ def main():
         for line in fh:
             components = line.split(",")
 
-            if len(components) != 3:
+            if len(components) != 4:
                 continue
 
             url = components[0]
