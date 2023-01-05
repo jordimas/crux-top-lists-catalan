@@ -50,13 +50,14 @@ def get_domain_and_netloc(url):
 
 def main():
 
+    URLS_FILE = 'urls.txt'
     total_urls = file_len('data/202211.csv') - 1
-    processed =  file_len('urls.txt')
+    processed =  file_len(URLS_FILE)
 
     false_positives = get_false_positives()
 
     domains_seen = set()
-    with open('urls.txt') as fh, open('llocs_en_catala.txt', 'w') as fh_catalan:
+    with open(URLS_FILE) as fh, open('llocs_en_catala.txt', 'w') as fh_catalan:
         line = f"# Proccesed {processed} of a total of {total_urls}"
         print(line)
         fh_catalan.write(line)
