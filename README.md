@@ -5,7 +5,7 @@
 
 Antecedents:
 
-* Basant-se en [recerca recent](https://zakird.com/papers/toplists.pdf) es determina que la llista del navegador Chrome de llocs web en memòria cau és la manera més sòlida per a entendre quins són els web més populars al món
+* A finals de 2022 es pubica [un article de recerca](https://zakird.com/papers/toplists.pdf) on es conclou que la manera més fiable per a entendre quins són els webs més populars al món és una la llista que publica Google dels llocs web que els usuaris tenen en memòria la cau del navegador Chrome. 
 * El projecte https://github.com/zakird/crux-top-lists pública les dades compartides per Google en format CSV perquè siguin fàcils de consumir
 
 # Les dades
@@ -24,7 +24,7 @@ Addicionalment és útil disposar d'una llista de webs en català per poder baix
 
 # Què hem fet 
 
-Crear una llista filtrada (de moment primers 50.000 llocs) que inclogui els llocs que ofereixen el català per entendre com s'aplica aquesta popularitat en la nostra realitat.
+Crear una llista filtrada que inclogui els llocs que ofereixen el català per entendre com s'aplica aquesta popularitat en la nostra realitat.
 
 Cal considerar que:
 * Per determinar la llengua visiten tots aquests llocs. Alguns en el moment de visitar-los donen errors, altres no són amables amb els automatismes de baixada, etc. Alguns no es poden consultar.
