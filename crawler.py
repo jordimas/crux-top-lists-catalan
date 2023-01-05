@@ -87,6 +87,10 @@ def _detect_lang(url, text):
 #        print(f"  Error detecting language for {url}: {e}")
         return None
 
+def _write_file_line(line):
+    with lock:
+        with open(URLS_FILE, 'a') as file:
+            file.write(line + "\n")
 
 def crawl_page(url, group):
     try:
@@ -130,17 +134,12 @@ def crawl_page(url, group):
         line = f"{url},{group},{language}"
      #   print(line)
         logging.debug(f"{url},{group},{language}, {words}")
-        with lock:
-	        with open(URLS_FILE, 'a') as file:
-		        file.write(line + "\n")
+        _write_file_line(line)
 
     except Exception as e:
         logging.error(f"Error on {url}: {e}")
-
-        with lock:
-            with open(URLS_FILE, 'a') as file:
-                line = f"{url},{group},error"
-                file.write(line + "\n")
+        line = f"{url},{group},error"
+        _write_file_line(line)
 
 def _get_urls_per_second(start_time, urls):
     time = datetime.datetime.now() - start_time
@@ -187,9 +186,6 @@ def main():
             if urls % 100 == 0:
                 urls_second = _get_urls_per_second(start_time, urls)
                 print(f"URLs: {urls}. ULRs per second {urls_second:.1f}")
-
-#            if cnt > 500:
-#                break
 
 if __name__ == "__main__":
     main()
