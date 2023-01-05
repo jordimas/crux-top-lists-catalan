@@ -19,6 +19,29 @@
 # Boston, MA 02111-1307, USA.
 
 from urllib.parse import urlparse
+import logging
+import os
+
+def init_logging(del_logs):
+    logfile = 'stats.log'
+
+    if del_logs and os.path.isfile(logfile):
+        os.remove(logfile)
+
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+
+    LOGLEVEL = os.environ.get('LOGLEVEL', 'INFO').upper()
+    console = logging.StreamHandler() # By default uses stderr
+
+    logging.basicConfig(filename=logfile, level=logging.DEBUG)
+    logger = logging.getLogger('')
+    console.setLevel(LOGLEVEL)
+
+    if LOGLEVEL != "INFO":
+        console.setFormatter(formatter)
+
+    logger.addHandler(console)
+
 
 def get_false_positives():
     falses = set()
@@ -50,6 +73,7 @@ def get_domain_and_netloc(url):
 
 def main():
 
+    init_logging(True)
     URLS_FILE = 'urls.txt'
     total_urls = file_len('data/202211.csv') - 1
     processed =  file_len(URLS_FILE)
@@ -71,7 +95,6 @@ def main():
             ranking = components[1]
             lang = components[2].rstrip()
 
-
             if lang != "ca":
                 continue
 
@@ -80,7 +103,7 @@ def main():
 
             domain, netloc = get_domain_and_netloc(url)
             if domain in domains_seen:
-#                print(f"Discarding {url} because already seen")
+                logging.debug(f"Discarding {url} because already seen")
                 continue
             else:
                 domains_seen.add(domain)
