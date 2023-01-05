@@ -70,9 +70,7 @@ def _detect_lang(url, text):
 
     try:
 
-        languages = [Language.CATALAN, Language.ENGLISH]
-        detector = LanguageDetectorBuilder.from_languages(*languages).build()
-#        detector = LanguageDetectorBuilder.from_all_languages().build()
+        detector = LanguageDetectorBuilder.from_all_languages().build()
 
         result = detector.detect_language_of(text)
 
