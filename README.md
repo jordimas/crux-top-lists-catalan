@@ -25,9 +25,8 @@ Ens agradaria contestar dues preguntes:
 Crear una llista filtrada (de moment primers 50.000 llocs) que inclogui els llocs que ofereixen el català per entendre com s'aplica aquesta popularitat en la nostra realitat.
 
 Cal considerar que:
-* Per determinar la llengua visiten tots aquests llocs. Alguns en el moment de visitar-los donen errors, altres no són amables amb els automatismes de baixada, etc. Alguns no es poden consultar. Veure el log d'errors
+* Per determinar la llengua visiten tots aquests llocs. Alguns en el moment de visitar-los donen errors, altres no són amables amb els automatismes de baixada, etc. Alguns no es poden consultar.
 * Els mecanismes de detecció de llengua no són perfectes. Usen dos mecanismes diferents i només determinem que és en català si el dos donen aquesta predicció
-* Addicionalment alguns lloc webs cal demanar explícitament el català o seleccionar-ho, aquests no els considerem de moment.
 
 # Reflexions
 
@@ -36,7 +35,7 @@ Cal considerar que:
 
 # Fitxers
 
-El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat amb [stats.py](stats.py))
+El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat amb l'aplicació [stats.py](stats.py))
 
 Si us pregunteu perquè un lloc no s'identificat en català o no està inclòs aquí teniu els fitxers amb l'idioma identificat a cada pàgina:
 
