@@ -38,7 +38,7 @@ def file_len(fname):
 
 def get_domain_and_netloc(url):
     netloc = urlparse(url).netloc
-    
+
     if netloc.count(".") >= 2:
         first = netloc.index(".") + 1
         second = netloc.index(".", first + 1)
@@ -52,9 +52,9 @@ def main():
 
     total_urls = file_len('data/202211.csv') - 1
     processed =  file_len('urls.txt')
-    
+
     false_positives = get_false_positives()
-    
+
     domains_seen = set()
     with open('urls.txt') as fh, open('llocs_en_catala.txt', 'w') as fh_catalan:
         line = f"# Proccesed {processed} of a total of {total_urls}"
@@ -65,7 +65,7 @@ def main():
 
             if len(components) != 3:
                 continue
-        
+
             url = components[0]
             ranking = components[1]
             lang = components[2].rstrip()
@@ -73,7 +73,7 @@ def main():
 
             if lang != "ca":
                 continue
-                            
+
             if url in false_positives:
                 continue
 
@@ -86,6 +86,6 @@ def main():
 
             print(line.rstrip())
             fh_catalan.write(line)
-   
+
 if __name__ == "__main__":
     main()

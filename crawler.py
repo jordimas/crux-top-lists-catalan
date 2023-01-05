@@ -67,30 +67,30 @@ lock = threading.Lock()
 URLS_FILE = "urls.txt"
 
 def _detect_lang(url, text):
-      
+
     try:
-    
+
         languages = [Language.CATALAN, Language.ENGLISH]
         detector = LanguageDetectorBuilder.from_languages(*languages).build()
 #        detector = LanguageDetectorBuilder.from_all_languages().build()
-        
+
         result = detector.detect_language_of(text)
-        
+
         if result:
             r =  str(result.iso_code_639_1).lower()
             first = r.index(".") + 1
             return r[first:]
-            
+
         return result
-        
+
     except Exception as e:
 #        print(f"  Error detecting language for {url}: {e}")
         return None
-        
+
 
 def crawl_page(url, group):
     try:
-        
+
         headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
             "Accept-Language" : "ca,en-US;q=0.7,en;q=0.3"}
 
@@ -101,7 +101,7 @@ def crawl_page(url, group):
             'utf-8',
             errors='replace'
         )
-        
+
         handle.close()
         soup = BeautifulSoup(html, 'lxml')
         text = soup.text
@@ -111,17 +111,17 @@ def crawl_page(url, group):
             language =  detect(soup.text)
             l = len(soup.text)
             language2 = _detect_lang(url, soup.text[0:min(l, 500)])
-            
+
             if language2:
                 new_language = language
                 if 'ca'== language and 'ca'!= language2:
                     new_language = language2
                     logging.error(f"Inconsitant languages detected on {url}: '{language}' - '{language2}'")
-                                                        
+
                 if 'ca'!= language and 'ca'== language2:
-                    new_language = language                
+                    new_language = language
                     logging.error(f"Inconsitant languages detected on {url}: '{language}' - '{language2}'")
-                
+
                 language = new_language
 
         else:
@@ -141,7 +141,7 @@ def crawl_page(url, group):
             with open(URLS_FILE, 'a') as file:
                 line = f"{url},{group},error"
                 file.write(line + "\n")
-                
+
 def _get_urls_per_second(start_time, urls):
     time = datetime.datetime.now() - start_time
     total_seconds = time.total_seconds()
@@ -149,7 +149,7 @@ def _get_urls_per_second(start_time, urls):
     return urls_second
 
 def main():
-    
+
     init_logging(True)
     PROTOCOL = "http"
     LEN_PROTOCOL = len(PROTOCOL)
@@ -169,7 +169,7 @@ def main():
                 continue
 
             url, group = line.split(",")
-            
+
             if singleThread:
                 crawl_page(url, group)
             else:
@@ -187,7 +187,7 @@ def main():
             if urls % 100 == 0:
                 urls_second = _get_urls_per_second(start_time, urls)
                 print(f"URLs: {urls}. ULRs per second {urls_second:.1f}")
-            
+
 #            if cnt > 500:
 #                break
 
