@@ -1,12 +1,13 @@
 
 
-# Introduccció
+# Introducció
 
 
 Antecedents:
 
-* Basant-se en [recerca recent](https://zakird.com/papers/toplists.pdf) es determina que la llista del navegador Chrome de llocs web en memòria cau és la manera més sòlida per a entendre quins són les web més populars al món
+* Basant-se en [recerca recent](https://zakird.com/papers/toplists.pdf) es determina que la llista del navegador Chrome de llocs web en memòria cau és la manera més sòlida per a entendre quins són els web més populars al món
 * El projecte https://github.com/zakird/crux-top-lists pública les dades compartides per Google en format CSV perquè siguin fàcils de consumir
+
 # Les dades
 
 * Aquestes són les [dades de desembre 2022](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv)
@@ -35,11 +36,15 @@ Cal considerar que:
 
 # Fitxers
 
+El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat amb [stats.py](stats.py))
+
+Si us pregunteu perquè un lloc no s'identificat en català o no està inclòs aquí teniu els fitxers amb l'idioma identificat a cada pàgina:
+
 * [urls.txt](crawling/urls.txt) conté tots els URLs que hem baixat amb la predicció de la llengua en que estan
+
+I també el fitxer d'errors del crawler (pàgines que no ha pogut baixar, etc)
+
 * [crawler-error.log](crawling/crawler-error.log) els errors produïts durant el procés de baixada de les pàgines
-* [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat per [stats.py](stats.py))
 
-
-
-
+*Com a referència final, la gent del [Wiccac](http://wiccac.cat/) manté una llista de webs en català.*
 
