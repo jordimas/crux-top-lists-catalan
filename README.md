@@ -20,6 +20,8 @@ Ens agradaria contestar dues preguntes:
 * Quin són els llocs web més populars en català?
 * Quin percentatge usen domini .cat? 
 
+Addicionalment és útil disposar d'una llista de webs en català per poder baixar-les i obtenir en el futur tots els textos.
+
 # Què hem fet 
 
 Crear una llista filtrada (de moment primers 50.000 llocs) que inclogui els llocs que ofereixen el català per entendre com s'aplica aquesta popularitat en la nostra realitat.
