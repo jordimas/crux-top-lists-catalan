@@ -28,7 +28,6 @@ Primers 10000 llocs
  https://cas.correios.com.br
  https://www.geogebra.org
  https://familia.edu.gva.es
- https://www.un.org
 Primers 50000 llocs
  https://www.basquetcatala.cat
  https://www.ara.cat
