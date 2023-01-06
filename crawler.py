@@ -118,7 +118,7 @@ def crawl_page(url, group):
 
         if words > 30:
             language =  detect(soup.text)
-            language2 = _detect_lang(url, soup.text)
+            language2 = _detect_lang(url, soup.text[0:min(len(soup.text), 300)])
 
             if language2:
                 new_language = language
