@@ -5,3 +5,4 @@ successfactors.eu
 https://lens.google
 https://webmail.wedos.net
 https://canvas.pasadena.edu
+https://mail.hostinger.com
