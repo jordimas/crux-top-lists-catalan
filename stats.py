@@ -120,6 +120,13 @@ def process_group(group, urls, domains_seen, fh_catalan):
     _process_group_filter(group, urls, domains_seen, fh_catalan, "", ".cat")
     _process_group_filter(group, urls, domains_seen, fh_catalan, "", ".com")        
     _process_group_filter(group, urls, domains_seen, fh_catalan, "", "")
+    
+def is_false_positive(url, false_positives):
+    for false_positive in false_positives:
+        if false_positive and false_positive in url:
+            return True
+
+    return False
 
 def main():
 
@@ -148,7 +155,7 @@ def main():
             if lang != "ca":
                 continue
 
-            if url in false_positives:
+            if is_false_positive(url, false_positives):
                 logging.debug(f"Discarding {url} because is a false positive")
                 continue
 
