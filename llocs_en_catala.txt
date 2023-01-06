@@ -67,4 +67,4 @@ Primers 50000 llocs
  https://www.caib.es
  https://www.nacex.es
 
-Nota: s'han analitzat les primers 42328 URL de les 1000000 disponibles
+Nota: s'han analitzat les primeres 42328 URL de les 1000000 disponibles

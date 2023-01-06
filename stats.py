@@ -177,7 +177,7 @@ def main():
             current_urls.append(url)
             
         process_group(current_group, current_urls, domains_seen, fh_catalan)            
-        line = f"\nNota: s'han analitzat les primers {processed} URL de les {total_urls} disponibles"
+        line = f"\nNota: s'han analitzat les primeres {processed} URL de les {total_urls} disponibles"
         print(line)
         fh_catalan.write(line + "\n")
 
