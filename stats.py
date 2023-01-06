@@ -37,9 +37,6 @@ def init_logging(del_logs):
     logger = logging.getLogger('')
     console.setLevel(LOGLEVEL)
 
-    if LOGLEVEL != "INFO":
-        console.setFormatter(formatter)
-
     logger.addHandler(console)
 
 
@@ -48,7 +45,6 @@ def get_false_positives():
     with open('falsos_positius.txt') as fh:
         for line in fh:
             line = line.strip()
-            #print("**" + line)
             falses.add(line)
 
     return falses
