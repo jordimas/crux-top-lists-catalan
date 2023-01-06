@@ -31,16 +31,30 @@ Primers 50000 llocs
  https://www.ara.cat
  https://www.naciodigital.cat
  https://www.regio7.cat
+ https://www.rac1.cat
+ https://www.meteo.cat
  https://www.lingohut.com
  https://www.ventusky.com
  https://www.convertworld.com
  https://www.freshlycosmetics.com
  https://www.tiqets.com
+ https://www.renaissancekingdoms.com
+ https://www.mobifriends.com
+ https://www.ebooking.com
+ https://www.bankinter.com
+ https://www.outletmoto.com
+ https://www.bdfutbol.com
  https://campusvirtual.urv.cat
  https://web.gencat.cat
  https://ptable.com
- https://empresas.bankinter.com
  https://exaroton.com
+ https://h.priceline.com
+ https://performancemanager4.successfactors.com
+ https://hcm44.sapsf.com
+ https://offlinemodapk.com
+ https://glosbe.com
+ https://transparency.fb.com
+ https://stopots.com
  https://www.videolan.org
  https://www.gva.es
  https://www.inaturalist.org
@@ -49,5 +63,17 @@ Primers 50000 llocs
  https://www.openstreetmap.org
  https://www84.hattrick.org
  https://ca.wikipedia.org
+ https://languagetool.org
+ https://correo.uv.es
+ https://online.saddleback.edu
+ https://www.ub.edu
+ https://canvas.south.edu
+ https://pagespeed.web.dev
+ https://online-sms.org
+ https://eagleonline.hccs.edu
+ https://roundcube.serveriai.lt
+ https://www.caib.es
+ https://serviciodecorreo.es
+ https://www.nacex.es
 
-Nota: s'han analitzat les primers 27232 URL de les 1000000 disponibles
+Nota: s'han analitzat les primers 42328 URL de les 1000000 disponibles
