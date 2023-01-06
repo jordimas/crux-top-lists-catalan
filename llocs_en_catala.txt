@@ -46,7 +46,6 @@ Primers 50000 llocs
  https://www.gva.es
  https://www.inaturalist.org
  https://www.xapes.net
- https://performancemanager.successfactors.eu
  https://www.softcatala.org
  https://www.openstreetmap.org
  https://www84.hattrick.org
