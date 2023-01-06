@@ -42,7 +42,12 @@ Cal considerar que:
 
 ## Llista de webs més populars del món en català
 
-El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat amb l'aplicació [stats.py](stats.py)). Aquesta aplicació aplica algunes regles d'ordenació (dins dels grups) que estan explicades al codi.
+El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat amb l'aplicació [stats.py](stats.py)). Aquesta aplicació aplica algunes regles d'ordenació que podeu revisar al codi. Però bàsicament:
+* Descartem els URL llistat al fitxer [falsos_positius.txt](falsos_positius.txt)
+* Es descarten totes les URL que redirigeixen a un altre domini (per exemple, a google.com).
+* Dins d'un mateix grup les adreces estan desordenades. Llavors donem preferència a les que comencen en wwww., són .cat, etc per mostrar primer les més comunes 
+* Cada domini es mostra només un cop. Això vol dir que si hi ha https://www.google.com no mostrarem https://www.google.fi ja que són equivalent (i les dues contesten en català) o bé si tens https://www.facebook.com i https://mobile.facebook.com. Per això la regla anterior és important perquè és prioritizen més comunes dins del mateix grup.
+
 
 ## Fitxers de depuració
 
