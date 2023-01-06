@@ -35,30 +35,25 @@ DetectorFactory.seed = 0
 
 def init_logging(del_logs):
     logfile = 'crawler.log'
-    logfile_error = 'crawler-error.log'
+    logfile_info = 'crawler_info.log'
 
     if del_logs and os.path.isfile(logfile):
         os.remove(logfile)
 
-    if del_logs and os.path.isfile(logfile_error):
-        os.remove(logfile_error)
+    if del_logs and os.path.isfile(logfile_info):
+        os.remove(logfile_info)
 
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
-    LOGLEVEL = os.environ.get('LOGLEVEL', 'INFO').upper()
     console = logging.StreamHandler() # By default uses stderr
-
     logging.basicConfig(filename=logfile, level=logging.DEBUG)
     logger = logging.getLogger('')
-    console.setLevel(LOGLEVEL)
-
-    if LOGLEVEL != "INFO":
-        console.setFormatter(formatter)
+    console.setLevel(logging.ERROR)
 
     logger.addHandler(console)
 
-    fh = logging.FileHandler(logfile_error)
-    fh.setLevel(logging.ERROR)
+    fh = logging.FileHandler(logfile_info)
+    fh.setLevel(logging.INFO)
     fh.setFormatter(formatter)
     logger.addHandler(fh)
 
@@ -109,7 +104,7 @@ def crawl_page(url, group):
         
         final_url = op.geturl()
         if final_url != url:
-            logging.error(f"Redirect {url} to {final_url}")
+            logging.info(f"Redirect {url} to {final_url}")
             new_url = final_url
 
         handle.close()
@@ -125,11 +120,11 @@ def crawl_page(url, group):
                 new_language = language
                 if 'ca'== language and 'ca'!= language2:
                     new_language = language2
-                    logging.error(f"Inconsitant languages detected on {url}: '{language}' - '{language2}'")
+                    logging.warning(f"Inconsitant languages detected on {url}: '{language}' - '{language2}'")
 
                 if 'ca'!= language and 'ca'== language2:
                     new_language = language
-                    logging.error(f"Inconsitant languages detected on {url}: '{language}' - '{language2}'")
+                    logging.warning(f"Inconsitant languages detected on {url}: '{language}' - '{language2}'")
 
                 language = new_language
 
