@@ -55,7 +55,7 @@ Si us pregunteu per què un lloc no s'ha identificat en català o no està incl�
 
 Fitxer original de les URL:
 
-* [202211.csv](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv) conté el el milió d'URLs més populars al món.
+* [202211.csv](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv) conté el milió d'URLs més populars al món.
 
 La llista de URLs com a resulat del procés de *crawling* amb l'idioma identificat per URL:
 
