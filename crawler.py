@@ -80,8 +80,12 @@ def _detect_lang(url, text):
 #        print(f"  Error detecting language for {url}: {e}")
         return None
 
+processed_urls = 0
+
 def _write_file_line(line):
     with lock:
+        global processed_urls
+        processed_urls += 1
         with open(URLS_FILE, 'a') as file:
             file.write(line + "\n")
 
@@ -184,7 +188,7 @@ def main():
 
             urls += 1
             if urls % 100 == 0:
-                urls_second = _get_urls_per_second(start_time, urls)
+                urls_second = _get_urls_per_second(start_time, processed_urls)
                 print(f"URLs: {urls}. ULRs per second {urls_second:.1f}")
 
 if __name__ == "__main__":
