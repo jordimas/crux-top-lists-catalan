@@ -49,11 +49,8 @@ Primers 50000 llocs
  https://ptable.com
  https://exaroton.com
  https://h.priceline.com
- https://performancemanager4.successfactors.com
- https://hcm44.sapsf.com
  https://offlinemodapk.com
  https://glosbe.com
- https://transparency.fb.com
  https://stopots.com
  https://www.videolan.org
  https://www.gva.es
@@ -65,15 +62,11 @@ Primers 50000 llocs
  https://ca.wikipedia.org
  https://languagetool.org
  https://correo.uv.es
- https://online.saddleback.edu
  https://www.ub.edu
- https://canvas.south.edu
  https://pagespeed.web.dev
  https://online-sms.org
- https://eagleonline.hccs.edu
  https://roundcube.serveriai.lt
  https://www.caib.es
- https://serviciodecorreo.es
  https://www.nacex.es
 
 Nota: s'han analitzat les primers 42328 URL de les 1000000 disponibles
