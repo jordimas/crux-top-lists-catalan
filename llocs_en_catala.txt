@@ -1,47 +1,53 @@
-# Proccesed 21011 of a total of 1000000https://www.google.com.br,1000,ca,
-https://business.facebook.com,1000,ca,
-https://www.booking.com,1000,ca,https://www.booking.com/index.ca.html?label=gen173nr-1BCAEoggI46AdIM1gEaKoCiAEBmAEEuAEYyAEM2AEB6AEBiAIBqAIEuAL89N-dBsACAdICJGU1NDlhZDNlLTVhNzEtNDQxNi04OGQwLTgyYzViODQ4YjA1MdgCBeACAQ&sid=40f4dfa97b0321d86f000b2528212f7f&keep_landing=1&sb_price_type=total&
-https://lichess.org,1000,ca,
-https://outlook.live.com,1000,ca,https://outlook.live.com/owa/
-https://twitter.com,1000,ca,
-https://moovitapp.com,5000,ca,
-https://www.fcf.cat,5000,ca,
-https://www.blogger.com,5000,ca,https://www.blogger.com/about/?bpli=1
-https://getadblock.com,5000,ca,https://getadblock.com/ca/
-https://www.elnacional.cat,5000,ca,
-https://www.easyjet.com,5000,ca,https://www.easyjet.com/ca/
-https://hsccsd.instructure.com,5000,ca,https://ccsd.instructure.com/login/ldap
-https://www.office.com,5000,ca,
-https://time.is,10000,ca,
-https://catalunyadiari.com,10000,ca,
-https://educaciodigital.cat,10000,ca,https://educaciodigital.cat:443/moodle/moodle/
-https://www.ccma.cat,10000,ca,
-https://sede.seg-social.gob.es,10000,ca,https://sede.seg-social.gob.es/wps/portal/sede/sede/Inicio
-https://garticphone.com,10000,ca,https://garticphone.com/ca
-https://cas.correios.com.br,10000,ca,https://cas.correios.com.br/login
-https://www.geogebra.org,10000,ca,
-https://www.bible.com,10000,ca,https://www.bible.com/ca
-https://www.vilaweb.cat,10000,ca,
-https://familia.edu.gva.es,10000,ca,https://familia.edu.gva.es/wf-front/myitaca/login_wf
-https://es.namemc.com,10000,ca,https://ca.namemc.com/
-https://www.playok.com,10000,ca,
-https://mail.hostinger.com,10000,ca,
-https://performancemanager5.successfactors.eu,50000,ca,https://performancemanager5.successfactors.eu/sf/start/
-https://ptable.com,50000,ca,
-https://www.basquetcatala.cat,50000,ca,
-https://www.lingohut.com,50000,ca,
-https://www.ara.cat,50000,ca,
-https://www.ventusky.com,50000,ca,
-https://www.videolan.org,50000,ca,
-https://campusvirtual.urv.cat,50000,ca,https://campusvirtual.urv.cat/local/alternatelogin/index.php
-https://www.gva.es,50000,ca,https://www.gva.es/va/inicio/presentacion
-https://www.inaturalist.org,50000,ca,
-https://www.xapes.net,50000,ca,
-https://www.convertworld.com,50000,ca,https://www.convertworld.com/ca/
-https://empresas.bankinter.com,50000,ca,https://www.bankinter.com/empresas/ca/inici
-https://web.gencat.cat,50000,ca,https://web.gencat.cat/ca/inici
-https://www.softcatala.org,50000,ca,
-https://www.naciodigital.cat,50000,ca,
-https://www.openstreetmap.org,50000,ca,
-https://canvas.pasadena.edu,50000,ca,https://canvas.pasadena.edu/login/ldap
-https://www84.hattrick.org,50000,ca,https://www84.hattrick.org/ca/
+# Proccesed 21266 of a total of 1000000
+Primers [] llocs
+Primers 1000 llocs
+ https://www.booking.com
+ https://www.google.com
+ https://www.facebook.com
+ https://outlook.live.com
+ https://twitter.com
+ https://lichess.org
+Primers 5000 llocs
+ https://www.fcf.cat
+ https://www.elnacional.cat
+ https://www.blogger.com
+ https://www.easyjet.com
+ https://www.office.com
+ https://moovitapp.com
+ https://getadblock.com
+ https://hsccsd.instructure.com
+Primers 10000 llocs
+ https://www.ccma.cat
+ https://www.vilaweb.cat
+ https://www.bible.com
+ https://www.playok.com
+ https://educaciodigital.cat
+ https://catalunyadiari.com
+ https://garticphone.com
+ https://es.namemc.com
+ https://mail.hostinger.com
+ https://time.is
+ https://sede.seg-social.gob.es
+ https://cas.correios.com.br
+ https://www.geogebra.org
+ https://familia.edu.gva.es
+Primers 50000 llocs
+ https://www.basquetcatala.cat
+ https://www.ara.cat
+ https://www.naciodigital.cat
+ https://www.lingohut.com
+ https://www.ventusky.com
+ https://www.convertworld.com
+ https://campusvirtual.urv.cat
+ https://web.gencat.cat
+ https://ptable.com
+ https://empresas.bankinter.com
+ https://performancemanager5.successfactors.eu
+ https://www.videolan.org
+ https://www.gva.es
+ https://www.inaturalist.org
+ https://www.xapes.net
+ https://www.softcatala.org
+ https://www.openstreetmap.org
+ https://canvas.pasadena.edu
+ https://www84.hattrick.org

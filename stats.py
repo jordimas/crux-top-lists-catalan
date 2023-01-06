@@ -74,6 +74,52 @@ def get_domain_and_netloc(url):
         domain = netloc
 
     return domain, netloc
+    
+def _process_group_filter(group, urls, domains_seen, fh_catalan, start_url, end_url):
+    processed = []
+    len_start_url = len(start_url)
+    len_end_url = len(end_url)
+    
+    for url in urls:
+
+        if start_url and end_url:
+            if start_url != url[0:len_start_url] or end_url != url[-len(end_url):]:
+                continue
+
+        if start_url:
+            if start_url != url[0:len_start_url]:
+                continue
+                
+        if end_url:
+            if end_url != url[-len(end_url):]:
+                continue                
+    
+        domain, netloc = get_domain_and_netloc(url)
+        if domain in domains_seen:
+            logging.debug(f"Discarding {url} because already seen")
+            continue
+        else:
+            domains_seen.add(domain)
+
+        processed.append(url)
+        line = f" {url}"
+        print(line)
+        fh_catalan.write(line + "\n")
+
+    for url in processed:
+        urls.remove(url)        
+
+def process_group(group, urls, domains_seen, fh_catalan):
+    line = f"Primers {group} llocs"
+    print(line)
+    fh_catalan.write(line + "\n")
+       
+    _process_group_filter(group, urls, domains_seen, fh_catalan, "https://www", ".cat")
+    _process_group_filter(group, urls, domains_seen, fh_catalan, "https://www", ".com")
+    _process_group_filter(group, urls, domains_seen, fh_catalan, "https://www", ".")
+    _process_group_filter(group, urls, domains_seen, fh_catalan, "", ".cat")
+    _process_group_filter(group, urls, domains_seen, fh_catalan, "", ".com")        
+    _process_group_filter(group, urls, domains_seen, fh_catalan, "", "")
 
 def main():
 
@@ -85,10 +131,12 @@ def main():
     false_positives = get_false_positives()
 
     domains_seen = set()
+    current_group = 0
+    current_urls = []
     with open(URLS_FILE) as fh, open('llocs_en_catala.txt', 'w') as fh_catalan:
         line = f"# Proccesed {processed} of a total of {total_urls}"
         print(line)
-        fh_catalan.write(line)
+        fh_catalan.write(line + "\n")
         for line in fh:
             components = line.split(",")
 
@@ -107,22 +155,24 @@ def main():
                 logging.debug(f"Discarding {url} because is a false positive")
                 continue
 
-            domain, netloc = get_domain_and_netloc(url)
-            if domain in domains_seen:
-                logging.debug(f"Discarding {url} because already seen")
-                continue
-            else:
-                domains_seen.add(domain)
-
             if redirect_url:
+                domain, netloc = get_domain_and_netloc(url)
                 redirect_domain, redirect_netloc = get_domain_and_netloc(redirect_url)
                 if redirect_domain != domain:
                     logging.debug(f"Discarding because diferent domains: {url} because redirects to {redirect_url}")
-                    continue
+                    continue                
+                
+            if current_group == 0:
+                current_group = group
 
-            line = f"{url},{group}" 
-            print(line)
-            fh_catalan.write(line + "\r")
+            if current_group != group:
+                process_group(current_group, current_urls, domains_seen, fh_catalan)            
+                current_group = group
+                current_urls.clear()
+                            
+            current_urls.append(url)
+            
+        process_group(current_group, current_urls, domains_seen, fh_catalan)            
 
 if __name__ == "__main__":
     main()
