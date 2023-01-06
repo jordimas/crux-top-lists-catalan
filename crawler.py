@@ -181,7 +181,7 @@ def main():
                 threads.append(thread)
                 thread.start()
 
-                if len(threads) > 200:
+                if len(threads) > 100:
                     for thread in threads:
                         thread.join()
 
