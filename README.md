@@ -42,7 +42,7 @@ Cal considerar que:
 
 ## Llista de webs més populars del món en català
 
-El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat amb l'aplicació [stats.py](stats.py))
+El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat amb l'aplicació [stats.py](stats.py)). Aquesta aplicació aplica algunes regles d'ordenació (dins dels grups) que estan explicades al codi.
 
 ## Fitxers de depuració
 

@@ -87,7 +87,7 @@ def _process_group_filter(group, urls, domains_seen, fh_catalan, start_url, end_
                 continue
                 
         if end_url:
-            if end_url != url[-len(end_url):]:
+            if end_url != url[-len_end_url:]:
                 continue                
     
         domain, netloc = get_domain_and_netloc(url)
