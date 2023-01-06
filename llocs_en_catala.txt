@@ -1,5 +1,3 @@
-# Proccesed 21266 of a total of 1000000
-Primers [] llocs
 Primers 1000 llocs
  https://www.booking.com
  https://www.google.com
@@ -35,13 +33,17 @@ Primers 50000 llocs
  https://www.basquetcatala.cat
  https://www.ara.cat
  https://www.naciodigital.cat
+ https://www.regio7.cat
  https://www.lingohut.com
  https://www.ventusky.com
  https://www.convertworld.com
+ https://www.freshlycosmetics.com
+ https://www.tiqets.com
  https://campusvirtual.urv.cat
  https://web.gencat.cat
  https://ptable.com
  https://empresas.bankinter.com
+ https://exaroton.com
  https://performancemanager5.successfactors.eu
  https://www.videolan.org
  https://www.gva.es
@@ -51,3 +53,8 @@ Primers 50000 llocs
  https://www.openstreetmap.org
  https://canvas.pasadena.edu
  https://www84.hattrick.org
+ https://ca.wikipedia.org
+ https://lens.google
+ https://webmail.wedos.net
+
+Nota: s'han analitzat les primers 27232 URL de les 1000000 disponibles

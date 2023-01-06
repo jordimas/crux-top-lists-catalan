@@ -134,9 +134,6 @@ def main():
     current_group = 0
     current_urls = []
     with open(URLS_FILE) as fh, open('llocs_en_catala.txt', 'w') as fh_catalan:
-        line = f"# Proccesed {processed} of a total of {total_urls}"
-        print(line)
-        fh_catalan.write(line + "\n")
         for line in fh:
             components = line.split(",")
 
@@ -173,6 +170,9 @@ def main():
             current_urls.append(url)
             
         process_group(current_group, current_urls, domains_seen, fh_catalan)            
+        line = f"\nNota: s'han analitzat les primers {processed} URL de les {total_urls} disponibles"
+        print(line)
+        fh_catalan.write(line + "\n")
 
 if __name__ == "__main__":
     main()
