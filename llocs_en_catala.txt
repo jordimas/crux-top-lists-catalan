@@ -63,9 +63,7 @@ Primers 50000 llocs
  https://languagetool.org
  https://correo.uv.es
  https://www.ub.edu
- https://pagespeed.web.dev
  https://online-sms.org
- https://roundcube.serveriai.lt
  https://www.caib.es
  https://www.nacex.es
 
