@@ -120,8 +120,9 @@ def main():
                     logging.debug(f"Discarding because diferent domains: {url} because redirects to {redirect_url}")
                     continue
 
-            print(f"{url},{group}")
-            fh_catalan.write(line)
+            line = f"{url},{group}" 
+            print(line)
+            fh_catalan.write(line + "\r")
 
 if __name__ == "__main__":
     main()
