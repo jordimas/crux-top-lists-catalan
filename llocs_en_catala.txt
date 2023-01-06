@@ -25,7 +25,6 @@ Primers 10000 llocs
  https://mail.hostinger.com
  https://time.is
  https://sede.seg-social.gob.es
- https://cas.correios.com.br
  https://www.geogebra.org
  https://familia.edu.gva.es
 Primers 50000 llocs
@@ -43,17 +42,14 @@ Primers 50000 llocs
  https://ptable.com
  https://empresas.bankinter.com
  https://exaroton.com
- https://performancemanager5.successfactors.eu
  https://www.videolan.org
  https://www.gva.es
  https://www.inaturalist.org
  https://www.xapes.net
+ https://performancemanager.successfactors.eu
  https://www.softcatala.org
  https://www.openstreetmap.org
- https://canvas.pasadena.edu
  https://www84.hattrick.org
  https://ca.wikipedia.org
- https://lens.google
- https://webmail.wedos.net
 
 Nota: s'han analitzat les primers 27232 URL de les 1000000 disponibles
