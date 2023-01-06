@@ -1,5 +1,3 @@
-
-
 # Introducció
 
 
@@ -43,13 +41,17 @@ Cal considerar que:
 
 # Fitxers que compartim
 
+## Llista de webs més populars del món en català
+
 El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat amb l'aplicació [stats.py](stats.py))
+
+## Fitxers de depuració
 
 Si us pregunteu perquè un lloc no s'ha identificat en català o no està inclòs aquí teniu els fitxers amb l'idioma identificat a cada pàgina:
 
 * [urls.txt](crawling/urls.txt) conté tots els URLs que hem baixat amb la predicció de la llengua en què estan
 
-I també el fitxer d'errors del crawler (pàgines que no ha pogut baixar, etc):
+I també el fitxer d'errors del *crawler* (pàgines que no ha pogut baixar, etc):
 
 * [crawler-error.log](crawling/crawler-error.log) els errors produïts durant el procés de baixada de les pàgines
 

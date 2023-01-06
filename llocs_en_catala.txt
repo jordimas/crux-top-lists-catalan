@@ -66,5 +66,6 @@ Primers 50000 llocs
  https://online-sms.org
  https://www.caib.es
  https://www.nacex.es
+ https://www.mozilla.org
 
-Nota: s'han analitzat les primeres 42328 URL de les 1000000 disponibles
+Nota: s'han analitzat les primeres 44521 URL de les 1000000 disponibles
