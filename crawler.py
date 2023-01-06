@@ -180,7 +180,7 @@ def main():
                 threads.append(thread)
                 thread.start()
 
-                if len(threads) > 100:
+                if len(threads) > 50:
                     for thread in threads:
                         thread.join()
 
