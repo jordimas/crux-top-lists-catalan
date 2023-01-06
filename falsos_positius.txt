@@ -17,3 +17,4 @@ https://canvas.south.edu
 https://pagespeed.web.dev
 https://yout.com
 https://rc.ds.network
+https://webcampus.unr.edu

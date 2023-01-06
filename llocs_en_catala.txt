@@ -33,6 +33,8 @@ Primers 50000 llocs
  https://www.regio7.cat
  https://www.rac1.cat
  https://www.meteo.cat
+ https://www.elpuntavui.cat
+ https://www.diaridegirona.cat
  https://www.lingohut.com
  https://www.ventusky.com
  https://www.convertworld.com
@@ -44,8 +46,10 @@ Primers 50000 llocs
  https://www.bankinter.com
  https://www.outletmoto.com
  https://www.bdfutbol.com
+ https://www.wework.com
  https://campusvirtual.urv.cat
  https://web.gencat.cat
+ https://beteve.cat
  https://ptable.com
  https://exaroton.com
  https://h.priceline.com
@@ -67,5 +71,11 @@ Primers 50000 llocs
  https://www.caib.es
  https://www.nacex.es
  https://www.mozilla.org
+ https://sede.mjusticia.gob.es
+Primers 100000 llocs
+ https://ajuntament.barcelona.cat
+ https://privatebin.net
+ https://www.apuntmedia.es
+ https://login.wordpress.org
 
-Nota: s'han analitzat les primeres 44521 URL de les 1000000 disponibles
+Nota: s'han analitzat les primeres 52478 URL de les 1000000 disponibles
