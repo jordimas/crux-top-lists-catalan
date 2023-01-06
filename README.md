@@ -34,8 +34,8 @@ Per fer això ha calgut:
 * Baixar les URLs i classificar-les segons la seva llengua
 
 Cal considerar que:
-* Al demanar els URL ens identifiquem com a parlants de català, així els llocs multingües ens ofereixen la versió en català.
-* Per determinar la llengua visiten tots aquests llocs. Alguns URL no es poden consultar: alguns en el moment de visitar-los donen errors, altres tenen mecanismes per evitar els cralwers, etc. 
+* Al demanar els URL ens identifiquem com a parlants de català, així els llocs multilingües ens ofereixen la versió en català.
+* Per determinar la llengua visiten tots aquests llocs. Alguns URL no es poden consultar: alguns en el moment de visitar-los donen errors, altres tenen mecanismes per evitar els crawlers, etc. 
 * Els mecanismes de detecció de llengua no són perfectes. Usem dos mecanismes diferents i només determinem que és en català si els dos donen aquesta predicció
 
 # Fitxers que compartim
@@ -58,7 +58,7 @@ La llista de URLs com a resulat del procés de *crawling* amb l'idioma identific
 
 I també el fitxer d'errors del *crawler* (pàgines que no ha pogut baixar, etc):
 
-* [crawler-error.log](crawling/crawler-error.log) els errors produïts durant el procés de baixada de les pàgines
+* [crawler_info.log.gz](crawling/crawler_info.log.gz) els errors produïts durant el procés de baixada de les pàgines
 
 *Com a referència final, la gent del [Wiccac](http://wiccac.cat/) manté una llista de webs en català.*
 
