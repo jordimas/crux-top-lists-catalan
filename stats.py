@@ -54,6 +54,7 @@ def file_len(fname):
         for i, l in enumerate(f):
             pass
     return i + 1
+    
 
 def get_domain_and_netloc(url):
     netloc = urlparse(url).netloc
@@ -70,6 +71,8 @@ def get_domain_and_netloc(url):
         domain = netloc
 
     return domain, netloc
+
+domains = {}
     
 def _process_group_filter(group, urls, domains_seen, fh_catalan, start_url, end_url):
     processed = []
@@ -101,9 +104,21 @@ def _process_group_filter(group, urls, domains_seen, fh_catalan, start_url, end_
         line = f" {url}"
         print(line)
         fh_catalan.write(line + "\n")
+        
+        global domains
+        last = netloc.rfind(".")
+        domain = netloc[last+1:]
+        count = domains.get(domain)
+        if not count:
+            count = 1
+        else:
+            count += 1
+            
+        domains[domain] = count
 
     for url in processed:
-        urls.remove(url)        
+        urls.remove(url)
+        
 
 def process_group(group, urls, domains_seen, fh_catalan):
     line = f"Primers {group} llocs"
@@ -172,8 +187,14 @@ def main():
                             
             current_urls.append(url)
             
-        process_group(current_group, current_urls, domains_seen, fh_catalan)            
-        line = f"\nNota: s'han analitzat les primeres {processed} URL de les {total_urls} disponibles"
+        process_group(current_group, current_urls, domains_seen, fh_catalan)
+        
+        domains_count = "\nNombre d'adreçes per domini de primer nivell: "
+        for domain, value in sorted(domains.items(), key=lambda item: item[1], reverse=True):
+                domains_count += f"{domain}:{value}, "
+
+        line = domains_count + "\n"
+        line += f"Nota: s'han analitzat les primeres {processed} URL de les {total_urls} disponibles"
         print(line)
         fh_catalan.write(line + "\n")
 

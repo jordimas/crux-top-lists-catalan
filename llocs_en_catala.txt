@@ -156,4 +156,5 @@ Primers 500000 llocs
  https://menorcavals.cime.es
  https://latramuntana.store
 
+Nombre d'adreçes per domini de primer nivell: com:56, cat:36, es:18, org:14, net:9, edu:4, eu:3, io:2, is:1, ad:1, ca:1, jp:1, coop:1, info:1, barcelona:1, fr:1, store:1, 
 Nota: s'han analitzat les primeres 145982 URL de les 1000000 disponibles
