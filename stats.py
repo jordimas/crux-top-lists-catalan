@@ -191,7 +191,7 @@ def main():
         
         domains_count = "\nNombre d'adreçes per domini de primer nivell: "
         for domain, value in sorted(domains.items(), key=lambda item: item[1], reverse=True):
-                domains_count += f"{domain}:{value}, "
+                domains_count += f"{domain}: {value}, "
 
         line = domains_count + "\n"
         line += f"Nota: s'han analitzat les primeres {processed} URL de les {total_urls} disponibles"
