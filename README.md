@@ -43,10 +43,30 @@ Cal considerar que:
 
 Recordeu que aquestes són les webs disponibles en català més populars del món (que és diferent que les webs en català més populars entre els catalanoparlants).
 
-El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat amb l'aplicació [stats.py](stats.py)). Aquesta aplicació aplica algunes regles d'ordenació que podeu revisar al codi. Per resumir-les:
+El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) (feu clic per veure la llista completa). Aspecte parcial que té:
+
+{
+Primers 1000 llocs
+ https://www.booking.com
+ https://www.google.com
+ https://www.facebook.com
+ https://outlook.live.com
+ https://twitter.com
+ https://lichess.org
+Primers 5000 llocs
+ https://www.fcf.cat
+ https://www.elnacional.cat
+ https://www.blogger.com
+... 
+
+Nombre d'adreçes per domini de primer nivell: com: 56, cat: 36, es: 18, org: 14, net: 9, edu: 4, eu: 3, io: 2, is: 1, ad: 1, jp: 1, coop: 1, info: 1, barcelona: 1, fr: 1, store: 1, 
+Nota: s'han analitzat les primeres 145982 URL de les 1000000 disponibles
+}
+
+Aquesta llista es genera amb l'aplicació [stats.py](stats.py)).  Apliquem algunes regles d'ordenació que podeu revisar al codi. Per resumir-les:
 * Es descarten els URL llistat al fitxer [falsos_positius.txt](falsos_positius.txt)
 * Es descarten totes les URL que redirigeixen a un altre domini (per exemple, a google.com).
-* Dins d'un mateix grup les adreces estan desordenades. Llavors donem preferència a les que comencen en wwww., són .cat, etc per mostrar primer les més comunes 
+* Dins d'un mateix grup les adreces estan desordenades. Llavors donem preferència a les que comencen en wwww., són .cat, etc per mostrar primer les més comunes.
 * Cada domini es mostra només un cop. Això vol dir que si hi ha https://www.google.com no mostrarem https://www.google.fi ja que són equivalent (i les dues contesten en català) o bé si tens https://www.facebook.com i https://mobile.facebook.com. Per això la regla anterior és important perquè és prioritizen més comunes dins del mateix grup.
 
 
