@@ -8,19 +8,18 @@ Antecedents:
 
 # Dades originals usades
 
-Algunes característiques de les dades:
+Algunes característiques de les dades originals:
 
-* Usem les [dades de desembre 2022](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv)
-* Tingueu en compte que això no és una llista de webs, sinó de URLs. Per això algunes web, com gencat, apareixen diversos cops amb diferents subdominis (www.gencat.cat, salut.gentcat, ruralcat.gencat.cat, etc)
-* Inclouen només el primer 1 milió de llocs web més populars al món
+* Usem les [dades de desembre 2022](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv).
+* Tingueu en compte que això no és una llista de webs, sinó de URLs. Per això algunes web, com gencat, apareixen diversos cops amb diferents subdominis (www.gencat.cat, salut.gentcat, ruralcat.gencat.cat, etc).
+* Inclouen només el primer 1 milió de llocs web més populars al món.
 * No es proporciona un rànquing de posicions (1,2,3), sinó que els URL es classifiquen en grups dels primers 1000, 5000, etc. Dins d'aquests blocs, els URL no estan ordenats.
 
 # Com volem usar aquestes dades?
 
 Tenim dos objectius:
 
-1) Ens agradaria contestar la pregunta:
-* Quins són els llocs web més populars del món existents en català?
+1) Ens agradaria contestar la pregunta: quins són els llocs web més populars del món existents en català?
 
 2) Ens és útil disposar d'una llista de webs en català per poder baixar-les i obtenir en el futur tots els textos en català a Internet.
 
