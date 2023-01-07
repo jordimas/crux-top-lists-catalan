@@ -65,10 +65,10 @@ Primers 50000 llocs
  https://www84.hattrick.org
  https://ca.wikipedia.org
  https://languagetool.org
- https://correo.uv.es
  https://www.ub.edu
  https://online-sms.org
  https://www.caib.es
+ https://aulavirtual.uv.es
  https://www.nacex.es
  https://www.mozilla.org
  https://sede.mjusticia.gob.es
@@ -124,15 +124,52 @@ Primers 500000 llocs
  https://www.girona.cat
  https://www.aguaita.cat
  https://www.reusdigital.cat
+ https://www.fchockey.cat
+ https://www.gerardapps.cat
+ https://www.diccionaris.cat
+ https://www.meteoforum.cat
+ https://www.tarragona.cat
+ https://www.edubcn.cat
+ https://www.campus.bernatelferrer.cat
+ https://www.isabadell.cat
+ https://www.dbalears.cat
+ https://www.totsantcugat.cat
+ https://www.copc.cat
+ https://www.animalsapiens.cat
+ https://www.idescat.cat
  https://www.bibashops.com
  https://www.altaveu.com
  https://www.hagglezon.com
  https://www.kindertic.com
  https://www.barnaclinic.com
  https://www.decadeslife.com
+ https://www.abbahoteles.com
+ https://www.sortirambnens.com
+ https://www.bonninsanso.com
+ https://www.diarimes.com
+ https://www.petalsearch.com
+ https://www.caixaguissona.com
+ https://www.montseinteriors.com
+ https://www.diaridesabadell.com
+ https://www.alexseguralr.com
+ https://www.jugarijugar.com
+ https://www.recordrentacar.com
+ https://www.mxtotal.com
+ https://www.cabanesalsarbres.com
+ https://www.fesmes.com
+ https://www.papelpintadoonline.com
+ https://www.verkami.com
  https://rodamots.cat
  https://xipgroc.cat
  http://www.hoqueipatins.fecapa.cat
+ https://fcatletisme.cat
+ https://bons.calafell.cat
+ https://monplaneta.cat
+ https://coneixelriu.museudelter.cat
+ https://insmontgros.cat
+ https://totnens.cat
+ https://alumnes.text-lagalera.cat
+ https://taxi.amb.cat
  https://bizneohr.com
  https://snake.googlemaps.com
  https://igpmanager.com
@@ -141,6 +178,22 @@ Primers 500000 llocs
  https://mutuaterrassa.com
  https://order.udon.com
  http://lib.hpublication.com
+ http://www.mascaromorera.com
+ https://capska.com
+ https://lyricsgem.com
+ https://mobiprix.com
+ https://platform.glifing.com
+ https://admin.cdmon.com
+ https://romsforgba.com
+ https://signup.microsoft.com
+ https://gumencatering.com
+ https://players.fcbarcelona.com
+ https://erp.alosuite.com
+ https://ind01.safelinks.protection.outlook.com
+ https://hospital.vallhebron.com
+ http://tophdsex.com
+ https://vivaldi.com
+ https://ypareo.btpcfa-pdl.com
  https://www.ibsalut.es
  https://www.salvador-dali.org
  https://www.il3.ub.edu
@@ -156,6 +209,29 @@ Primers 500000 llocs
  https://menorcavals.cime.es
  https://latramuntana.store
  http://www.generadordepreus.info
+ https://tuklas.up.edu.ph
+ https://posta.marun.edu.tr
+ https://www.emporda.info
+ https://partage.insa-rouen.fr
+ https://uab.deporsite.net
+ https://www.habitatge.barcelona
+ https://aprs.fi
+ https://m.andorradifusio.ad
+ https://imas.sedipualba.es
+ https://wimap.feld.cvut.cz
+ https://sagradafamilia.org
+ https://www.suma.es
+ https://www.amnistiacatalunya.org
+ https://www.querol.net
+ https://ca.wiktionary.org
+ https://espiral.suara.coop
+ https://www.albet.es
+ https://www.publicine.net
+ https://cas.univ-perp.fr
+ https://www.upc.edu
+ https://www.avl.gva.es
+ https://www.fib.upc.edu
+ https://donate.wikimedia.org
 
-Nombre d'adreçes per domini de primer nivell: com: 56, cat: 37, es: 18, org: 14, net: 9, edu: 4, eu: 3, io: 2, info: 2, is: 1, ad: 1, jp: 1, coop: 1, barcelona: 1, fr: 1, store: 1, 
-Nota: s'han analitzat les primeres 151315 URL de les 1000000 disponibles
+Nombre d'adreçes per domini de primer nivell: com: 88, cat: 58, es: 22, org: 18, net: 12, edu: 6, eu: 3, info: 3, fr: 3, io: 2, ad: 2, coop: 2, barcelona: 2, is: 1, jp: 1, store: 1, ph: 1, tr: 1, fi: 1, cz: 1, 
+Nota: s'han analitzat les primeres 224144 URL de les 1000000 disponibles

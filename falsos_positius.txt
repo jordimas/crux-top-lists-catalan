@@ -8,6 +8,7 @@ mail
 canvas
 login
 correios
+correo
 https://online.saddleback.edu
 https://eagleonline.hccs.edu
 https://serviciodecorreo.es
@@ -42,3 +43,15 @@ https://zbr.gazi.edu.tr
 https://ident.univ-amu.fr
 https://mynew.aolcc.ca
 http://service.nso.go.th
+https://www.chessmoon.com
+https://www.manmods.com
+https://buzondecorreo.com
+https://bearface.perceivant.com
+https://admision.finanzauto.com.co
+https://portal.swps.edu.pl
+https://posta.marmara.edu.tr
+https://cas.utbm.fr
+https://cas.unae.edu.ec
+https://cosy.erc.edu
+https://cpeonline.ucdavis.edu
+https://cas.univ-perp.fr
