@@ -142,7 +142,6 @@ Primers 500000 llocs
  https://www.il3.ub.edu
  https://www.cac.es
  https://myhealthbox.eu
- https://zbr.gazi.edu.tr
  https://escolagoya.clickedu.eu
  https://www.sindicat.net
  https://moodle.esrp.net
