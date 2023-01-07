@@ -45,7 +45,7 @@ Recordeu que aquestes són les webs disponibles en català més populars del mó
 
 El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) (feu clic per veure la llista completa). Aspecte parcial que té:
 
-{
+```
 Primers 1000 llocs
  https://www.booking.com
  https://www.google.com
@@ -58,10 +58,12 @@ Primers 5000 llocs
  https://www.elnacional.cat
  https://www.blogger.com
 ... 
+... 
+... 
 
 Nombre d'adreçes per domini de primer nivell: com: 56, cat: 36, es: 18, org: 14, net: 9, edu: 4, eu: 3, io: 2, is: 1, ad: 1, jp: 1, coop: 1, info: 1, barcelona: 1, fr: 1, store: 1, 
 Nota: s'han analitzat les primeres 145982 URL de les 1000000 disponibles
-}
+```
 
 Aquesta llista es genera amb l'aplicació [stats.py](stats.py)).  Apliquem algunes regles d'ordenació que podeu revisar al codi. Per resumir-les:
 * Es descarten els URL llistat al fitxer [falsos_positius.txt](falsos_positius.txt)
