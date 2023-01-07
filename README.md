@@ -11,7 +11,7 @@ Antecedents:
 Algunes característiques de les dades:
 
 * Usem les [dades de desembre 2022](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv)
-* Tingueu en compte que això no és una llista de webs, sinó de URLs. Per això algunes web, com gencat, apareix diversos cops amb diferents subdominis (www.gencat.cat, salut.gentcat, ruralcat.gencat.cat, etc)
+* Tingueu en compte que això no és una llista de webs, sinó de URLs. Per això algunes web, com gencat, apareixen diversos cops amb diferents subdominis (www.gencat.cat, salut.gentcat, ruralcat.gencat.cat, etc)
 * Inclouen només el primer 1 milió de llocs web més populars al món
 * No es proporciona un rànquing de posicions (1,2,3), sinó que els URL es classifiquen en grups dels primers 1000, 5000, etc. Dins d'aquests blocs, els URL no estan ordenats.
 
@@ -35,7 +35,7 @@ Per fer això ha calgut:
 
 Cal considerar que:
 * Al demanar els URL ens identifiquem com a parlants de català, així els llocs multilingües ens ofereixen la versió en català.
-* Per determinar la llengua visiten tots aquests llocs. Alguns URL no es poden consultar: alguns en el moment de visitar-los donen errors, altres tenen mecanismes per evitar els crawlers, etc. 
+* Per determinar la llengua visitem tots aquests llocs. Alguns URL no es poden consultar: alguns en el moment de visitar-los donen errors, altres tenen mecanismes per evitar els crawlers, etc. 
 * Els mecanismes de detecció de llengua no són perfectes. Usem dos mecanismes diferents i només determinem que és en català si els dos donen aquesta predicció
 
 # Fitxers que compartim

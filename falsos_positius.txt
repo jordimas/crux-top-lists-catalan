@@ -39,3 +39,4 @@ https://rc.levelcenter.hu
 https://savba.savba.sk
 https://cas.centralelille.fr
 https://zbr.gazi.edu.tr
+https://ident.univ-amu.fr

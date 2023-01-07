@@ -124,6 +124,7 @@ Primers 500000 llocs
  https://www.catorze.cat
  https://www.girona.cat
  https://www.aguaita.cat
+ https://www.reusdigital.cat
  https://www.bibashops.com
  https://www.altaveu.com
  https://www.hagglezon.com
@@ -131,12 +132,15 @@ Primers 500000 llocs
  https://www.barnaclinic.com
  https://www.decadeslife.com
  https://rodamots.cat
+ https://xipgroc.cat
  https://bizneohr.com
  https://snake.googlemaps.com
  https://igpmanager.com
  https://myroom.tekmaneducation.com
  https://parkimeter.com
  https://mutuaterrassa.com
+ https://order.udon.com
+ http://lib.hpublication.com
  https://www.ibsalut.es
  https://www.salvador-dali.org
  https://www.il3.ub.edu
@@ -152,4 +156,4 @@ Primers 500000 llocs
  https://menorcavals.cime.es
  https://latramuntana.store
 
-Nota: s'han analitzat les primeres 141062 URL de les 1000000 disponibles
+Nota: s'han analitzat les primeres 145982 URL de les 1000000 disponibles
