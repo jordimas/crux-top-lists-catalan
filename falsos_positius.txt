@@ -55,3 +55,6 @@ https://cas.unae.edu.ec
 https://cosy.erc.edu
 https://cpeonline.ucdavis.edu
 https://cas.univ-perp.fr
+https://posta.marun.edu.tr
+https://wimap.feld.cvut.cz
+https://cas.univ-perp.fr

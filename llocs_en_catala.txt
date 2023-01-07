@@ -210,7 +210,6 @@ Primers 500000 llocs
  https://latramuntana.store
  http://www.generadordepreus.info
  https://tuklas.up.edu.ph
- https://posta.marun.edu.tr
  https://www.emporda.info
  https://partage.insa-rouen.fr
  https://uab.deporsite.net
@@ -218,7 +217,6 @@ Primers 500000 llocs
  https://aprs.fi
  https://m.andorradifusio.ad
  https://imas.sedipualba.es
- https://wimap.feld.cvut.cz
  https://sagradafamilia.org
  https://www.suma.es
  https://www.amnistiacatalunya.org
@@ -227,11 +225,10 @@ Primers 500000 llocs
  https://espiral.suara.coop
  https://www.albet.es
  https://www.publicine.net
- https://cas.univ-perp.fr
  https://www.upc.edu
  https://www.avl.gva.es
  https://www.fib.upc.edu
  https://donate.wikimedia.org
 
-Nombre d'adreçes per domini de primer nivell: com: 88, cat: 58, es: 22, org: 18, net: 12, edu: 6, eu: 3, info: 3, fr: 3, io: 2, ad: 2, coop: 2, barcelona: 2, is: 1, jp: 1, store: 1, ph: 1, tr: 1, fi: 1, cz: 1, 
+Nombre d'adreçes per domini de primer nivell: com: 88, cat: 58, es: 22, org: 18, net: 12, edu: 6, eu: 3, info: 3, io: 2, ad: 2, coop: 2, barcelona: 2, fr: 2, is: 1, jp: 1, store: 1, ph: 1, fi: 1, 
 Nota: s'han analitzat les primeres 224144 URL de les 1000000 disponibles
