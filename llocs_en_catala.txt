@@ -91,10 +91,7 @@ Primers 100000 llocs
  https://aladi.diba.cat
  https://aulavirtual.cpnl.cat
  https://dlc.iec.cat
- https://webmail.supremecluster.com
  https://storymaps.arcgis.com
- https://business.instagram.com
- https://m.workplace.com
  https://paraulogicavui.com
  https://cat.fictionexpress.com
  https://cloud.huawei.com
@@ -104,40 +101,28 @@ Primers 100000 llocs
  https://kanka.io
  https://evangeli.net
  https://o2online.es
- https://canvas.polk.edu
- https://d2l.laurentian.ca
  https://www.thunderbird.net
  https://www.san.gva.es
  https://www.avamet.org
  https://www.valencia.es
  https://www.diariandorra.ad
  https://mynew.aolcc.ca
- https://lms.pps.net
- https://poczta.zenbox.pl
- https://canvas.jccc.edu
- https://webmail.online.nl
  https://aulavirtual.uji.es
  https://hcm55.sapsf.eu
  https://www.meteoclimatic.net
  https://driverpack.io
- https://webmail.upv.es
- https://canvas.suss.edu.sg
  https://carpetaciudadana.gob.es
- https://webmail.uni-tuebingen.de
  https://mstdn.jp
- https://webmail.stofa.dk
+ http://www.upv.es
  https://supermercado.eroski.es
  https://www.abacus.coop
  https://elearning.salemstate.edu
  https://www.classificats.net
- https://webmail.domeneshop.no
  https://www.upf.edu
- https://webmail.your-server.de
  https://ecourses.tvcc.edu
  https://sgpd.correios.com.br
  https://cointracking.info
  https://www.uoc.edu
- https://webmail.ac-lille.fr
 Primers 500000 llocs
  https://www.verbs.cat
  https://www.racocatala.cat
@@ -151,34 +136,23 @@ Primers 500000 llocs
  https://www.kindertic.com
  https://www.barnaclinic.com
  https://www.decadeslife.com
- https://webmail.tinet.cat
  https://rodamots.cat
- https://webmail.myshoptet.com
  https://bizneohr.com
  https://snake.googlemaps.com
  https://igpmanager.com
  https://myroom.tekmaneducation.com
  https://parkimeter.com
- https://sso.canvaslms.com
  https://mutuaterrassa.com
- https://mail.univ-amu.fr
  https://sso.unipi.gr
- https://webmail.une.net.co
  https://www.ibsalut.es
  https://www.salvador-dali.org
- https://canvas.ivc.edu
- https://webmail.execulink.ca
  https://postur.simnet.is
  https://www.il3.ub.edu
  https://www.cac.es
  https://myhealthbox.eu
  https://identificate.ulpgc.es
  https://zbr.gazi.edu.tr
- https://webmail.partage.renater.fr
- https://canvas.saddleback.edu
  https://escolagoya.clickedu.eu
- https://mail.fab.mil.br
- https://webmail.u-bourgogne.fr
  https://outlook.chu-amiens.fr
  https://www.sindicat.net
  https://cas.univ-paris8.fr
@@ -193,9 +167,7 @@ Primers 500000 llocs
  https://rc.levelcenter.hu
  https://savba.savba.sk
  https://menorcavals.cime.es
- https://mail.axc.nl
  https://cas.centralelille.fr
  https://latramuntana.store
- https://mail.seaal.dz
 
 Nota: s'han analitzat les primeres 141062 URL de les 1000000 disponibles
