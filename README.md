@@ -23,7 +23,7 @@ Tenim dos objectius:
 
 2) Ens és útil disposar d'una llista de webs en català per poder baixar-les i obtenir en el futur tots els textos en català a Internet.
 
-Qualsevol dada addicional, malgrat que no sigui 100% acurada, és útil si ens ajuda a aportar noves perspectives d'on som com a comunitat de parlants. 
+Qualsevol dada addicional és útil si ens ajuda a aportar noves perspectives d'on som com a comunitat de parlants, malgrat que no sigui 100% acurada.
 
 # Què hem fet 
 
