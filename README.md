@@ -43,7 +43,7 @@ Cal considerar que:
 
 Recordeu que aquestes són les webs disponibles en català més populars del món (que és diferent que les webs en català més populars entre els catalanoparlants).
 
-El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) (feu clic per veure la llista completa). Aspecte parcial que té:
+El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) (feu clic per veure la llista completa). Aspecte que té (mostra parcial):
 
 ```
 Primers 1000 llocs
@@ -65,7 +65,7 @@ Nombre d'adreçes per domini de primer nivell: com: 56, cat: 36, es: 18, org: 14
 Nota: s'han analitzat les primeres 145982 URL de les 1000000 disponibles
 ```
 
-Aquesta llista es genera amb l'aplicació [stats.py](stats.py)).  Apliquem algunes regles d'ordenació que podeu revisar al codi. Per resumir-les:
+Aquesta llista es genera amb l'aplicació [stats.py](stats.py).  Apliquem algunes regles d'ordenació que podeu revisar al codi. Per resumir-les:
 * Es descarten els URL llistat al fitxer [falsos_positius.txt](falsos_positius.txt)
 * Es descarten totes les URL que redirigeixen a un altre domini (per exemple, a google.com).
 * Dins d'un mateix grup les adreces estan desordenades. Llavors donem preferència a les que comencen en wwww., són .cat, etc per mostrar primer les més comunes.
