@@ -77,7 +77,6 @@ Primers 100000 llocs
  https://www.elperiodico.cat
  https://www.tmb.cat
  https://www.portaventuraworld.com
- https://www.xtudr.com
  https://www.h10hotels.com
  https://www.itevelesa.com
  https://www.gentcomtu.com
@@ -94,10 +93,8 @@ Primers 100000 llocs
  https://storymaps.arcgis.com
  https://paraulogicavui.com
  https://cat.fictionexpress.com
- https://cloud.huawei.com
  https://privatebin.net
  https://www.apuntmedia.es
- https://login.wordpress.org
  https://kanka.io
  https://evangeli.net
  https://o2online.es
@@ -116,11 +113,8 @@ Primers 100000 llocs
  http://www.upv.es
  https://supermercado.eroski.es
  https://www.abacus.coop
- https://elearning.salemstate.edu
  https://www.classificats.net
  https://www.upf.edu
- https://ecourses.tvcc.edu
- https://sgpd.correios.com.br
  https://cointracking.info
  https://www.uoc.edu
 Primers 500000 llocs
@@ -143,31 +137,20 @@ Primers 500000 llocs
  https://myroom.tekmaneducation.com
  https://parkimeter.com
  https://mutuaterrassa.com
- https://sso.unipi.gr
  https://www.ibsalut.es
  https://www.salvador-dali.org
- https://postur.simnet.is
  https://www.il3.ub.edu
  https://www.cac.es
  https://myhealthbox.eu
- https://identificate.ulpgc.es
  https://zbr.gazi.edu.tr
  https://escolagoya.clickedu.eu
- https://outlook.chu-amiens.fr
  https://www.sindicat.net
- https://cas.univ-paris8.fr
- https://www.mymanulife.com.hk
  https://moodle.esrp.net
  https://lcwo.net
- https://poczta.domena.pl
  https://palausantjordi.barcelona
  https://jesenslebonheur.fr
  https://docs.krita.org
- https://www.petronect.com.br
- https://rc.levelcenter.hu
- https://savba.savba.sk
  https://menorcavals.cime.es
- https://cas.centralelille.fr
  https://latramuntana.store
 
 Nota: s'han analitzat les primeres 141062 URL de les 1000000 disponibles
