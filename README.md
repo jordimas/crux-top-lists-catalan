@@ -31,7 +31,7 @@ Qualsevol dada addicional, malgrat que no sigui 100% acurada, és útil si ens a
 Filtrar la llista original perquè inclogui només els llocs que ofereixen el català. 
 
 Per fer això ha calgut:
-* Baixar les URLs i classificar-les segons la seva llengua
+* Baixar els URLs i classificar-les segons la seva llengua
 
 Cal considerar que:
 * Al demanar els URL ens identifiquem com a parlants de català, així els llocs multilingües ens ofereixen la versió en català.
@@ -41,6 +41,8 @@ Cal considerar que:
 # Fitxers que compartim
 
 ## Llista de webs més populars del món en català
+
+Recordeu que aquestes són les webs disponibles en català més populars del món (que és diferent que les webs en català més populars entre els catalanoparlants)
 
 El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs en català (creat amb l'aplicació [stats.py](stats.py)). Aquesta aplicació aplica algunes regles d'ordenació que podeu revisar al codi. Però bàsicament:
 * Descartem els URL llistat al fitxer [falsos_positius.txt](falsos_positius.txt)
@@ -53,11 +55,11 @@ El fitxer [llocs_en_catala.txt](llocs_en_catala.txt) conté el llistat de webs e
 
 Si us pregunteu per què un lloc no s'ha identificat en català o no està inclòs en aquest llistat aquests fitxers els compartim per transparència:
 
-Fitxer original de les URL:
+Fitxer original de els URL:
 
 * [202211.csv](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv) conté el milió d'URLs més populars al món.
 
-La llista de URLs com a resulat del procés de *crawling* amb l'idioma identificat per URL:
+La llista de URLs com a resultat del procés de *crawling* amb l'idioma identificat per URL:
 
 * [urls.txt](crawling/urls.txt) conté tots els URLs que hem baixat amb la predicció de la llengua en què estan
 
