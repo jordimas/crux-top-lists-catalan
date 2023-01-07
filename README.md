@@ -33,9 +33,9 @@ Per fer això ha calgut:
 * Baixar els URLs i classificar-les segons la seva llengua
 
 Cal considerar que:
-* Al demanar els URL ens identifiquem com a parlants de català, així els llocs multilingües ens ofereixen la versió en català.
+* Al demanar els URL ens identifiquem com a parlants de català, així els llocs web multilingües ens ofereixen la versió en català.
 * Per determinar la llengua visitem tots aquests llocs. Alguns URL no es poden consultar: alguns en el moment de visitar-los donen errors, altres tenen mecanismes per evitar els crawlers, etc. 
-* Els mecanismes de detecció de llengua no són perfectes. Usem dos mecanismes diferents i només determinem que és en català si els dos donen aquesta predicció
+* Els mecanismes de detecció de llengua no són perfectes. Usem dos mecanismes diferents i només concloem una URL és en català si els dos coincideixen en aquesta predicció.
 
 # Fitxers que compartim
 
