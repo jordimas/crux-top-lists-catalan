@@ -152,6 +152,8 @@ Primers 500000 llocs
  https://www.ornitho.cat
  https://www.emtpalma.cat
  https://www.parcdesalutmar.cat
+ https://www.fgc.cat
+ https://www.viaempresa.cat
  https://www.bibashops.com
  https://www.altaveu.com
  https://www.hagglezon.com
@@ -189,6 +191,9 @@ Primers 500000 llocs
  https://www.ieduca.com
  https://www.artypist.com
  https://www.fourvenues.com
+ https://www.masella.com
+ https://www.salarazzmatazz.com
+ https://www.ulule.com
  https://rodamots.cat
  https://xipgroc.cat
  http://www.hoqueipatins.fecapa.cat
@@ -207,6 +212,8 @@ Primers 500000 llocs
  https://moodle.iestorrevicens.cat
  https://campusvirtual.umanresa.cat
  http://formacio.ics.gencat.cat
+ http://www.fcpatinatge.cat
+ https://aulavirtual2.camfic.cat
  https://bizneohr.com
  https://snake.googlemaps.com
  https://igpmanager.com
@@ -245,6 +252,9 @@ Primers 500000 llocs
  https://catala.habitaclia.com
  https://affluences.com
  http://www.teisa-bus.com
+ https://m.wattpad.com
+ https://ca.wikiloc.com
+ https://edu.pekebook.com
  https://www.ibsalut.es
  https://www.salvador-dali.org
  https://www.il3.ub.edu
@@ -305,6 +315,10 @@ Primers 500000 llocs
  https://sso.uib.es
  https://www.uic.es
  https://mastodon.cloud
+ https://biographe.ru
+ https://plusmessenger.org
+ https://identify.plantnet.org
+ https://cas.univ-tours.fr
 
-Nombre d'adreçes per domini de primer nivell: com: 117, cat: 80, es: 33, org: 24, net: 15, edu: 7, eu: 5, io: 3, info: 3, ad: 2, coop: 2, barcelona: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, 
-Nota: s'han analitzat les primeres 313923 URL de les 1000000 disponibles
+Nombre d'adreçes per domini de primer nivell: com: 123, cat: 84, es: 33, org: 26, net: 15, edu: 7, eu: 5, io: 3, info: 3, ad: 2, coop: 2, barcelona: 2, fr: 2, is: 1, jp: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, ru: 1, 
+Nota: s'han analitzat les primeres 327947 URL de les 1000000 disponibles
