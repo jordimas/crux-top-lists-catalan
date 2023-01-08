@@ -317,8 +317,6 @@ Primers 500000 llocs
  https://mastodon.cloud
  https://biographe.ru
  https://plusmessenger.org
- https://identify.plantnet.org
- https://cas.univ-tours.fr
 
-Nombre d'adreçes per domini de primer nivell: com: 123, cat: 84, es: 33, org: 26, net: 15, edu: 7, eu: 5, io: 3, info: 3, ad: 2, coop: 2, barcelona: 2, fr: 2, is: 1, jp: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, ru: 1, 
+Nombre d'adreçes per domini de primer nivell: com: 123, cat: 84, es: 33, org: 25, net: 15, edu: 7, eu: 5, io: 3, info: 3, ad: 2, coop: 2, barcelona: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, ru: 1, 
 Nota: s'han analitzat les primeres 327947 URL de les 1000000 disponibles

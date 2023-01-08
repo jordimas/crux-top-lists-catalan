@@ -11,6 +11,7 @@ correios
 correo
 posta
 poczta
+https://cas.
 https://online.saddleback.edu
 https://eagleonline.hccs.edu
 https://serviciodecorreo.es
@@ -33,12 +34,10 @@ https://sso.unipi.gr
 https://postur.simnet.is
 https://identificate.ulpgc.es
 https://outlook.chu-amiens.fr
-https://cas.univ-paris8.fr
 https://www.mymanulife.com.hk
 https://www.petronect.com.br
 https://rc.levelcenter.hu
 https://savba.savba.sk
-https://cas.centralelille.fr
 https://zbr.gazi.edu.tr
 https://ident.univ-amu.fr
 https://mynew.aolcc.ca
@@ -50,14 +49,10 @@ https://bearface.perceivant.com
 https://admision.finanzauto.com.co
 https://portal.swps.edu.pl
 https://posta.marmara.edu.tr
-https://cas.utbm.fr
-https://cas.unae.edu.ec
 https://cosy.erc.edu
 https://cpeonline.ucdavis.edu
-https://cas.univ-perp.fr
 https://posta.marun.edu.tr
 https://wimap.feld.cvut.cz
-https://cas.univ-perp.fr
 https://prismas.santillana.es
 https://stud.iitp.ac.in
 https://sso-cas.univ-rennes1.fr
@@ -68,7 +63,6 @@ https://sso.u-pec.fr
 https://edt.univ-angers.fr
 https://reseau.free.fr
 https://sso.u-pec.fr
-https://cas.u-paris2.fr
 https://git.kpi.fei.tuke.sk
 https://lms.rku.ac.in
 https://partage.insa-rouen.fr
