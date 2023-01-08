@@ -11,6 +11,8 @@ correios
 correo
 posta
 poczta
+webmel
+epost.
 https://cas.
 https://online.saddleback.edu
 https://eagleonline.hccs.edu
@@ -74,4 +76,10 @@ https://smart.dexway.com
 https://uniportal.ihu.gr
 https://sso2.allianz.pl
 https://www.movistarcloud.cl
-
+https://chuck.allianz.pl
+https://www.roundcube.sk
+https://ent.centralelille.fr
+https://synergies.univ-tlse3.fr
+https://sogo.uni-ulm.de
+https://lms.neumont.edu
+https://learn.asuprep.org

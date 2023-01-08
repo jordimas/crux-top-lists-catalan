@@ -161,6 +161,12 @@ Primers 500000 llocs
  https://www.tibidabo.cat
  https://www.aquatics.cat
  https://www.zoobarcelona.cat
+ https://www.cabrejunqueras.cat
+ https://www.infopis.cat
+ https://www.tresc.cat
+ https://www.dipta.cat
+ https://www.ccoo.cat
+ https://www.aula.guillemcata.cat
  https://www.bibashops.com
  https://www.altaveu.com
  https://www.hagglezon.com
@@ -210,6 +216,14 @@ Primers 500000 llocs
  https://www.caprabo.com
  https://www.sangulisalou.com
  https://www.cinesbagescentre.com
+ https://www.solopatin.com
+ https://www.vevidental.com
+ https://www.escapadaambnens.com
+ https://www.operabase.com
+ https://www.bibleinfo.com
+ https://www.naturaki.com
+ https://www.farmaceuticonline.com
+ https://www.germigarden.com
  https://rodamots.cat
  https://xipgroc.cat
  http://www.hoqueipatins.fecapa.cat
@@ -234,6 +248,11 @@ Primers 500000 llocs
  https://esadir.cat
  https://treballaambnosaltres.bonpreuesclat.cat
  https://campus.institutpedralbes.cat
+ https://campus.proven.cat
+ https://laciutat.cat
+ https://correu.bcn.cat
+ https://monterrassa.cat
+ https://t-mobilitat.atm.cat
  https://bizneohr.com
  https://snake.googlemaps.com
  https://igpmanager.com
@@ -276,6 +295,16 @@ Primers 500000 llocs
  https://ca.wikiloc.com
  https://edu.pekebook.com
  https://jcacinemes.com
+ https://podcastaddict.com
+ https://tiendaracingcolors.com
+ https://parautrollic.com
+ https://idealbarcelona.com
+ https://visitandorra.com
+ https://shop.damm.com
+ https://insronda.gescola.com
+ http://www.veteransfutbol.com
+ https://alanniaresorts.com
+ http://www.arduinoblocks.com
  https://www.ibsalut.es
  https://www.salvador-dali.org
  https://www.il3.ub.edu
@@ -345,6 +374,17 @@ Primers 500000 llocs
  https://portal.solarprofit.es
  https://pageviews.wmcloud.org
  https://parkguell.barcelona
+ https://www.aproperties.es
+ https://correu.coac.net
+ https://meow.social
+ https://www.viena.es
+ https://www.tuttotone.download
+ https://browser-update.org
+ https://www.buscocotxe.ad
+ https://www.buscofeina.ad
+ http://enxaneta.info
+ https://learn.asuprep.org
+ https://lms.neumont.edu
 
-Nombre d'adreçes per domini de primer nivell: com: 133, cat: 95, es: 34, org: 30, net: 15, edu: 7, eu: 6, io: 3, info: 3, barcelona: 3, ad: 2, coop: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, 
-Nota: s'han analitzat les primeres 354002 URL de les 1000000 disponibles
+Nombre d'adreçes per domini de primer nivell: com: 151, cat: 106, es: 36, org: 32, net: 16, edu: 8, eu: 6, ad: 4, info: 4, io: 3, barcelona: 3, coop: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, 
+Nota: s'han analitzat les primeres 397594 URL de les 1000000 disponibles
