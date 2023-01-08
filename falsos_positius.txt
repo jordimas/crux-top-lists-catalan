@@ -9,6 +9,8 @@ canvas
 login
 correios
 correo
+posta
+poczta
 https://online.saddleback.edu
 https://eagleonline.hccs.edu
 https://serviciodecorreo.es
@@ -19,10 +21,9 @@ https://yout.com
 https://rc.ds.network
 https://webcampus.unr.edu
 https://cloud.huawei.com
-https://business.instagram.com
+instagram.com
 workplace.com
 https://d2l.laurentian.ca
-https://poczta.zenbox.pl
 https://lms.pps.net
 https://www.xtudr.com
 https://elearning.salemstate.edu
@@ -34,7 +35,6 @@ https://identificate.ulpgc.es
 https://outlook.chu-amiens.fr
 https://cas.univ-paris8.fr
 https://www.mymanulife.com.hk
-https://poczta.domena.pl
 https://www.petronect.com.br
 https://rc.levelcenter.hu
 https://savba.savba.sk
@@ -58,3 +58,11 @@ https://cas.univ-perp.fr
 https://posta.marun.edu.tr
 https://wimap.feld.cvut.cz
 https://cas.univ-perp.fr
+https://prismas.santillana.es
+https://stud.iitp.ac.in
+https://sso-cas.univ-rennes1.fr
+https://apkbent.net
+https://prep.ontocollege.com
+https://clickthis.blog
+https://sso.u-pec.fr
+https://edt.univ-angers.fr

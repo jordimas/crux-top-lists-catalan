@@ -137,6 +137,21 @@ Primers 500000 llocs
  https://www.copc.cat
  https://www.animalsapiens.cat
  https://www.idescat.cat
+ https://www.cuina.cat
+ https://www.fisioterapeutes.cat
+ https://www.lesportiudecatalunya.cat
+ https://www.xcatalunya.cat
+ https://www.icgc.cat
+ https://www.caixabank.cat
+ https://www.larepublica.cat
+ https://www.fcbarcelona.cat
+ https://www.totbarcelona.cat
+ https://www.viasona.cat
+ https://www.insbaixcamp.cat
+ https://www.macba.cat
+ https://www.ornitho.cat
+ https://www.emtpalma.cat
+ https://www.parcdesalutmar.cat
  https://www.bibashops.com
  https://www.altaveu.com
  https://www.hagglezon.com
@@ -159,6 +174,21 @@ Primers 500000 llocs
  https://www.fesmes.com
  https://www.papelpintadoonline.com
  https://www.verkami.com
+ https://www.barraquer.com
+ https://www.jugaia.com
+ https://www.hotelsone.com
+ https://www.esteba.com
+ https://www.affinity-petcare.com
+ https://www.starstickvinilos.com
+ https://www.diyetz.com
+ https://www.caixaenginyers.com
+ https://www.bonarea-foodservice.com
+ https://www.infofeina.com
+ https://www.revato.com
+ https://www.cataloniahotels.com
+ https://www.ieduca.com
+ https://www.artypist.com
+ https://www.fourvenues.com
  https://rodamots.cat
  https://xipgroc.cat
  http://www.hoqueipatins.fecapa.cat
@@ -170,6 +200,13 @@ Primers 500000 llocs
  https://totnens.cat
  https://alumnes.text-lagalera.cat
  https://taxi.amb.cat
+ https://actawp.natacio.cat
+ https://surtdecasa.cat
+ https://fcvolei.cat
+ https://etselquemenges.cat
+ https://moodle.iestorrevicens.cat
+ https://campusvirtual.umanresa.cat
+ http://formacio.ics.gencat.cat
  https://bizneohr.com
  https://snake.googlemaps.com
  https://igpmanager.com
@@ -187,13 +224,28 @@ Primers 500000 llocs
  https://romsforgba.com
  https://signup.microsoft.com
  https://gumencatering.com
- https://players.fcbarcelona.com
  https://erp.alosuite.com
  https://ind01.safelinks.protection.outlook.com
  https://hospital.vallhebron.com
  http://tophdsex.com
  https://vivaldi.com
  https://ypareo.btpcfa-pdl.com
+ https://naughtygrin.com
+ https://elmagopop.koobin.com
+ https://support.taskrabbit.com
+ https://4pmtech.com
+ https://myportal.driveknight.com
+ https://vpiera.com
+ http://www.meteovallsdaneu.com
+ https://elsllumsdesantpau.com
+ https://prep.ontocollege.com
+ https://micasaconruedas.com
+ https://pobleandorra.com
+ https://mozaart.com
+ https://meteopoble.com
+ https://catala.habitaclia.com
+ https://affluences.com
+ http://www.teisa-bus.com
  https://www.ibsalut.es
  https://www.salvador-dali.org
  https://www.il3.ub.edu
@@ -229,6 +281,41 @@ Primers 500000 llocs
  https://www.avl.gva.es
  https://www.fib.upc.edu
  https://donate.wikimedia.org
+ https://www.condor.es
+ https://www.dragongoserver.net
+ https://www.asc.es
+ https://www.bofrost.es
+ https://virgintelco.es
+ https://www.clicat.eu
+ https://virtual.ecaib.org
+ https://www.softvalencia.org
+ https://soib.es
+ https://lameva.udg.edu
+ https://alive.bar
+ https://cdimage.debian.org
+ https://edt.univ-angers.fr
+ https://clickthis.blog
+ https://playtomic.io
+ https://www.ocinegavarres.es
+ https://www.sjdhospitalbarcelona.org
+ https://dadalogic.org
+ https://apkbent.net
+ https://lms.rku.ac.in
+ https://git.kpi.fei.tuke.sk
+ https://iedib.net
+ https://www.academicsoftware.eu
+ https://old.windguru.cz
+ https://www.caixapopular.es
+ https://www.peretarres.org
+ https://cas.u-paris2.fr
+ https://www.atib.es
+ https://sso.u-pec.fr
+ https://www.vidalibarraquer.net
+ https://reseau.free.fr
+ https://cv.eug.es
+ https://sso.uib.es
+ https://www.uic.es
+ https://mastodon.cloud
 
-Nombre d'adreçes per domini de primer nivell: com: 88, cat: 58, es: 22, org: 18, net: 12, edu: 6, eu: 3, info: 3, io: 2, ad: 2, coop: 2, barcelona: 2, fr: 2, is: 1, jp: 1, store: 1, ph: 1, fi: 1, 
-Nota: s'han analitzat les primeres 224144 URL de les 1000000 disponibles
+Nombre d'adreçes per domini de primer nivell: com: 118, cat: 80, es: 33, org: 24, net: 16, edu: 7, fr: 6, eu: 5, io: 3, info: 3, ad: 2, coop: 2, barcelona: 2, is: 1, jp: 1, store: 1, ph: 1, fi: 1, bar: 1, blog: 1, in: 1, sk: 1, cz: 1, cloud: 1, 
+Nota: s'han analitzat les primeres 313923 URL de les 1000000 disponibles
