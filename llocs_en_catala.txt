@@ -273,9 +273,7 @@ Primers 500000 llocs
  https://erp.alosuite.com
  https://ind01.safelinks.protection.outlook.com
  https://hospital.vallhebron.com
- http://tophdsex.com
  https://vivaldi.com
- https://ypareo.btpcfa-pdl.com
  https://naughtygrin.com
  https://elmagopop.koobin.com
  https://support.taskrabbit.com
@@ -383,8 +381,6 @@ Primers 500000 llocs
  https://www.buscocotxe.ad
  https://www.buscofeina.ad
  http://enxaneta.info
- https://learn.asuprep.org
- https://lms.neumont.edu
 
-Nombre d'adreçes per domini de primer nivell: com: 151, cat: 106, es: 36, org: 32, net: 16, edu: 8, eu: 6, ad: 4, info: 4, io: 3, barcelona: 3, coop: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, 
+Nombre d'adreçes per domini de primer nivell: com: 149, cat: 106, es: 36, org: 31, net: 16, edu: 7, eu: 6, ad: 4, info: 4, io: 3, barcelona: 3, coop: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, 
 Nota: s'han analitzat les primeres 397594 URL de les 1000000 disponibles
