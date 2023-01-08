@@ -238,7 +238,6 @@ Primers 500000 llocs
  https://vpiera.com
  http://www.meteovallsdaneu.com
  https://elsllumsdesantpau.com
- https://prep.ontocollege.com
  https://micasaconruedas.com
  https://pobleandorra.com
  https://mozaart.com
@@ -293,29 +292,21 @@ Primers 500000 llocs
  https://lameva.udg.edu
  https://alive.bar
  https://cdimage.debian.org
- https://edt.univ-angers.fr
- https://clickthis.blog
  https://playtomic.io
  https://www.ocinegavarres.es
  https://www.sjdhospitalbarcelona.org
  https://dadalogic.org
- https://apkbent.net
- https://lms.rku.ac.in
- https://git.kpi.fei.tuke.sk
  https://iedib.net
  https://www.academicsoftware.eu
  https://old.windguru.cz
  https://www.caixapopular.es
  https://www.peretarres.org
- https://cas.u-paris2.fr
  https://www.atib.es
- https://sso.u-pec.fr
  https://www.vidalibarraquer.net
- https://reseau.free.fr
  https://cv.eug.es
  https://sso.uib.es
  https://www.uic.es
  https://mastodon.cloud
 
-Nombre d'adreçes per domini de primer nivell: com: 118, cat: 80, es: 33, org: 24, net: 16, edu: 7, fr: 6, eu: 5, io: 3, info: 3, ad: 2, coop: 2, barcelona: 2, is: 1, jp: 1, store: 1, ph: 1, fi: 1, bar: 1, blog: 1, in: 1, sk: 1, cz: 1, cloud: 1, 
+Nombre d'adreçes per domini de primer nivell: com: 117, cat: 80, es: 33, org: 24, net: 15, edu: 7, eu: 5, io: 3, info: 3, ad: 2, coop: 2, barcelona: 2, fr: 2, is: 1, jp: 1, store: 1, ph: 1, fi: 1, bar: 1, cz: 1, cloud: 1, 
 Nota: s'han analitzat les primeres 313923 URL de les 1000000 disponibles

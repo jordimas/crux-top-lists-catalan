@@ -66,3 +66,8 @@ https://prep.ontocollege.com
 https://clickthis.blog
 https://sso.u-pec.fr
 https://edt.univ-angers.fr
+https://reseau.free.fr
+https://sso.u-pec.fr
+https://cas.u-paris2.fr
+https://git.kpi.fei.tuke.sk
+https://lms.rku.ac.in
