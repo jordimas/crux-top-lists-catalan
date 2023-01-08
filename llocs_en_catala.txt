@@ -154,6 +154,13 @@ Primers 500000 llocs
  https://www.parcdesalutmar.cat
  https://www.fgc.cat
  https://www.viaempresa.cat
+ https://www.sabadell.cat
+ https://www.endocrino.cat
+ https://www.api.cat
+ https://www.e-noticies.cat
+ https://www.tibidabo.cat
+ https://www.aquatics.cat
+ https://www.zoobarcelona.cat
  https://www.bibashops.com
  https://www.altaveu.com
  https://www.hagglezon.com
@@ -194,6 +201,15 @@ Primers 500000 llocs
  https://www.masella.com
  https://www.salarazzmatazz.com
  https://www.ulule.com
+ https://www.lesgrandsbuffets.com
+ https://www.spaceweatherlive.com
+ https://www.emule-project.com
+ https://www.agroptima.com
+ https://www.auladecatala.com
+ https://www.fyrebox.com
+ https://www.caprabo.com
+ https://www.sangulisalou.com
+ https://www.cinesbagescentre.com
  https://rodamots.cat
  https://xipgroc.cat
  http://www.hoqueipatins.fecapa.cat
@@ -214,6 +230,10 @@ Primers 500000 llocs
  http://formacio.ics.gencat.cat
  http://www.fcpatinatge.cat
  https://aulavirtual2.camfic.cat
+ https://totsjuguem.cat
+ https://esadir.cat
+ https://treballaambnosaltres.bonpreuesclat.cat
+ https://campus.institutpedralbes.cat
  https://bizneohr.com
  https://snake.googlemaps.com
  https://igpmanager.com
@@ -255,6 +275,7 @@ Primers 500000 llocs
  https://m.wattpad.com
  https://ca.wikiloc.com
  https://edu.pekebook.com
+ https://jcacinemes.com
  https://www.ibsalut.es
  https://www.salvador-dali.org
  https://www.il3.ub.edu
@@ -316,6 +337,14 @@ Primers 500000 llocs
  https://www.uic.es
  https://mastodon.cloud
  https://plusmessenger.org
+ https://help.gnome.org
+ https://www.fcarreras.org
+ https://dilc.org
+ https://ca.m.wiktionary.org
+ https://lavalira.eu
+ https://portal.solarprofit.es
+ https://pageviews.wmcloud.org
+ https://parkguell.barcelona
 
-Nombre d'adreçes per domini de primer nivell: com: 123, cat: 84, es: 33, org: 25, net: 15, edu: 7, eu: 5, io: 3, info: 3, ad: 2, coop: 2, barcelona: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, 
-Nota: s'han analitzat les primeres 327947 URL de les 1000000 disponibles
+Nombre d'adreçes per domini de primer nivell: com: 133, cat: 95, es: 34, org: 30, net: 15, edu: 7, eu: 6, io: 3, info: 3, barcelona: 3, ad: 2, coop: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, 
+Nota: s'han analitzat les primeres 354002 URL de les 1000000 disponibles
