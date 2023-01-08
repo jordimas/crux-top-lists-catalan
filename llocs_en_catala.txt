@@ -260,9 +260,7 @@ Primers 500000 llocs
  https://menorcavals.cime.es
  https://latramuntana.store
  http://www.generadordepreus.info
- https://tuklas.up.edu.ph
  https://www.emporda.info
- https://partage.insa-rouen.fr
  https://uab.deporsite.net
  https://www.habitatge.barcelona
  https://aprs.fi
@@ -308,5 +306,5 @@ Primers 500000 llocs
  https://www.uic.es
  https://mastodon.cloud
 
-Nombre d'adreçes per domini de primer nivell: com: 117, cat: 80, es: 33, org: 24, net: 15, edu: 7, eu: 5, io: 3, info: 3, ad: 2, coop: 2, barcelona: 2, fr: 2, is: 1, jp: 1, store: 1, ph: 1, fi: 1, bar: 1, cz: 1, cloud: 1, 
+Nombre d'adreçes per domini de primer nivell: com: 117, cat: 80, es: 33, org: 24, net: 15, edu: 7, eu: 5, io: 3, info: 3, ad: 2, coop: 2, barcelona: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, 
 Nota: s'han analitzat les primeres 313923 URL de les 1000000 disponibles

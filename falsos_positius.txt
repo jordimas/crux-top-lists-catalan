@@ -71,3 +71,5 @@ https://sso.u-pec.fr
 https://cas.u-paris2.fr
 https://git.kpi.fei.tuke.sk
 https://lms.rku.ac.in
+https://partage.insa-rouen.fr
+https://tuklas.up.edu.ph
