@@ -267,6 +267,7 @@ Primers 500000 llocs
  https://www.catalunya.com
  https://www.capgros.com
  https://www.electromaps.com
+ https://www.rec0.com
  https://rodamots.cat
  https://xipgroc.cat
  http://www.hoqueipatins.fecapa.cat
@@ -466,6 +467,7 @@ Primers 500000 llocs
  https://www.imasmallorca.net
  https://prevodyonline.eu
  https://www.dwservice.net
+ https://comercial.creditandorragroup.ad
 
-Nombre d'adreçes per domini de primer nivell: com: 177, cat: 141, es: 40, org: 38, net: 21, edu: 9, eu: 6, ad: 5, info: 4, io: 3, barcelona: 3, jp: 2, coop: 2, fr: 2, is: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, film: 1, 
-Nota: s'han analitzat les primeres 497402 URL de les 1000000 disponibles
+Nombre d'adreçes per domini de primer nivell: com: 178, cat: 141, es: 40, org: 38, net: 21, edu: 9, ad: 6, eu: 6, info: 4, io: 3, barcelona: 3, jp: 2, coop: 2, fr: 2, is: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, film: 1, 
+Nota: s'han analitzat les primeres 500000 URL de les 1000000 disponibles
