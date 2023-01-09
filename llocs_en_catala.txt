@@ -104,7 +104,6 @@ Primers 100000 llocs
  https://www.valencia.es
  https://www.diariandorra.ad
  https://aulavirtual.uji.es
- https://hcm55.sapsf.eu
  https://www.meteoclimatic.net
  https://driverpack.io
  https://carpetaciudadana.gob.es
@@ -253,7 +252,6 @@ Primers 500000 llocs
  https://correu.bcn.cat
  https://monterrassa.cat
  https://t-mobilitat.atm.cat
- https://bizneohr.com
  https://snake.googlemaps.com
  https://igpmanager.com
  https://myroom.tekmaneducation.com
@@ -271,7 +269,6 @@ Primers 500000 llocs
  https://signup.microsoft.com
  https://gumencatering.com
  https://erp.alosuite.com
- https://ind01.safelinks.protection.outlook.com
  https://hospital.vallhebron.com
  https://vivaldi.com
  https://naughtygrin.com
@@ -382,5 +379,5 @@ Primers 500000 llocs
  https://www.buscofeina.ad
  http://enxaneta.info
 
-Nombre d'adreçes per domini de primer nivell: com: 149, cat: 106, es: 36, org: 31, net: 16, edu: 7, eu: 6, ad: 4, info: 4, io: 3, barcelona: 3, coop: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, 
+Nombre d'adreçes per domini de primer nivell: com: 147, cat: 106, es: 36, org: 31, net: 16, edu: 7, eu: 5, ad: 4, info: 4, io: 3, barcelona: 3, coop: 2, is: 1, jp: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, 
 Nota: s'han analitzat les primeres 397594 URL de les 1000000 disponibles
