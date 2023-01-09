@@ -68,8 +68,8 @@ Nota: s'han analitzat les primeres 500000 URL de les 1000000 disponibles
 Aquesta llista es genera amb l'aplicació [stats.py](stats.py).  Apliquem algunes regles d'ordenació que podeu revisar al codi. Per resumir-les:
 * Es descarten els URL llistat al fitxer [falsos_positius.txt](falsos_positius.txt)
 * Es descarten totes les URL que redirigeixen a un altre domini (per exemple, a google.com).
-* Dins d'un mateix grup les adreces estan desordenades. Llavors donem preferència a les que comencen en wwww., són .cat, etc per mostrar primer les més comunes.
-* Cada domini es mostra només un cop. Això vol dir que si hi ha https://www.google.com no mostrarem https://www.google.fi ja que són equivalent (i les dues contesten en català) o bé si tens https://www.facebook.com i https://mobile.facebook.com. Per això la regla anterior és important perquè és prioritizen més comunes dins del mateix grup.
+* Dins d'un mateix grup les adreces estan desordenades. Llavors donem preferència a les que comencen en www., són .cat, etc per mostrar primer les més comunes.
+* Cada domini es mostra només un cop. Això vol dir que si hi ha https://www.google.com no mostrarem https://www.google.fi ja que són equivalents (i les dues contesten en català) o bé si tens https://www.facebook.com i https://mobile.facebook.com. Per això la regla anterior és important perquè és prioritizen més comunes dins del mateix grup.
 
 
 ## Fitxers de depuració
@@ -88,6 +88,6 @@ I també el fitxer d'errors del *crawler* (pàgines que no ha pogut baixar, etc)
 
 * [crawler_info.log.gz](crawling/crawler_info.log.gz) els errors produïts durant el procés de baixada de les pàgines
 
-*Com a referència final, la gent del [Wiccac](http://wiccac.cat/) manté una llista de webs en català.*
+*Com a referència final, la gent del [Wiccac](http://wiccac.cat/) manté una llista de webs en català de forma manual.*
 
 
