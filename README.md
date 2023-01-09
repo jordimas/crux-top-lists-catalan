@@ -4,14 +4,14 @@
 Antecedents:
 
 * A finals de 2022 es publica [un article de recerca](https://zakird.com/papers/toplists.pdf) on es conclou, que la manera més fiable per a determinar quins són els webs més populars al món, és usar la llista que publica Google dels llocs web que els usuaris tenen en memòria la cau del navegador Chrome. 
-* El projecte https://github.com/zakird/crux-top-lists pública les dades compartides per Google en format CSV perquè siguin fàcils de consumir.
+* El projecte https://github.com/zakird/crux-top-lists publica les dades compartides per Google en format CSV perquè siguin fàcils de consumir.
 
 # Dades originals usades
 
 Algunes característiques de les dades originals:
 
 * Usem les [dades de desembre 2022](https://raw.githubusercontent.com/jordimas/crux-top-lists-catalan/main/data/202211.csv).
-* Tingueu en compte que això no és una llista de webs, sinó de URLs. Per això algunes web, com gencat, apareixen diversos cops amb diferents subdominis (www.gencat.cat, salut.gentcat, ruralcat.gencat.cat, etc).
+* Tingueu en compte que això no és una llista de webs, sinó de URLs. Per això algunes web, com gencat, apareixen diversos cops amb diferents subdominis (www.gencat.cat, salut.gencat, ruralcat.gencat.cat, etc).
 * Inclouen només el primer 1 milió de llocs web més populars al món.
 * No es proporciona un rànquing de posicions (1,2,3), sinó que els URL es classifiquen en grups dels primers 1000, 5000, etc. Dins d'aquests blocs, els URL no estan ordenats.
 
@@ -30,7 +30,7 @@ Qualsevol dada addicional és útil si ens ajuda a aportar noves perspectives d'
 Filtrar la llista original perquè inclogui només els llocs que ofereixen el català. 
 
 Per fer això ha calgut:
-* Baixar els URLs i classificar-les segons la seva llengua
+* Baixar els URLs (usant un [cralwer](crawler.py)) i classificar-les segons la seva llengua
 
 Cal considerar que:
 * Al demanar els URL ens identifiquem com a parlants de català, així els llocs web multilingües ens ofereixen la versió en català.
