@@ -266,7 +266,6 @@ Primers 500000 llocs
  https://www.teatrepoliorama.com
  https://www.catalunya.com
  https://www.capgros.com
- https://www.swiftdrivers.com
  https://www.electromaps.com
  https://rodamots.cat
  https://xipgroc.cat
@@ -366,7 +365,6 @@ Primers 500000 llocs
  https://connect.jobteaser.com
  https://cablematic.com
  https://baixakigeeks.com
- https://nam12.safelinks.protection.outlook.com
  https://www.ibsalut.es
  https://www.salvador-dali.org
  https://www.il3.ub.edu
@@ -475,7 +473,6 @@ Primers 500000 llocs
  https://www.imasmallorca.net
  https://prevodyonline.eu
  https://www.dwservice.net
- https://lms.uotechnology.edu.iq
 
-Nombre d'adreçes per domini de primer nivell: com: 179, cat: 141, es: 40, org: 39, net: 21, edu: 9, eu: 6, ad: 5, info: 4, io: 3, barcelona: 3, fr: 3, jp: 2, coop: 2, cz: 2, ca: 2, is: 1, store: 1, fi: 1, bar: 1, cloud: 1, social: 1, download: 1, br: 1, film: 1, de: 1, iq: 1, 
+Nombre d'adreçes per domini de primer nivell: com: 177, cat: 141, es: 40, org: 39, net: 21, edu: 9, eu: 6, ad: 5, info: 4, io: 3, barcelona: 3, fr: 3, jp: 2, coop: 2, cz: 2, ca: 2, is: 1, store: 1, fi: 1, bar: 1, cloud: 1, social: 1, download: 1, br: 1, film: 1, de: 1, 
 Nota: s'han analitzat les primeres 497402 URL de les 1000000 disponibles
