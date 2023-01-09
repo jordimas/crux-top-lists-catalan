@@ -30,7 +30,7 @@ Qualsevol dada addicional és útil si ens ajuda a aportar noves perspectives d'
 Filtrar la llista original perquè inclogui només els llocs que ofereixen el català. 
 
 Per fer això ha calgut:
-* Baixar els URLs (usant un [cralwer](crawler.py)) i classificar-les segons la seva llengua
+* Baixar els URLs (usant un [crawler](crawler.py)) i classificar-les segons la seva llengua
 
 Cal considerar que:
 * Al demanar els URL ens identifiquem com a parlants de català, així els llocs web multilingües ens ofereixen la versió en català.
@@ -61,8 +61,8 @@ Primers 5000 llocs
 ... 
 ... 
 
-Nombre d'adreçes per domini de primer nivell: com: 56, cat: 36, es: 18, org: 14, net: 9, edu: 4, eu: 3, io: 2, is: 1, ad: 1, jp: 1, coop: 1, info: 1, barcelona: 1, fr: 1, store: 1, 
-Nota: s'han analitzat les primeres 145982 URL de les 1000000 disponibles
+Nombre d'adreçes per domini de primer nivell: com: 178, cat: 141, es: 40, org: 38, net: 21, edu: 8, ad: 6, eu: 6, info: 4, io: 3, barcelona: 3, jp: 2, coop: 2, is: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, film: 1, 
+Nota: s'han analitzat les primeres 500000 URL de les 1000000 disponibles
 ```
 
 Aquesta llista es genera amb l'aplicació [stats.py](stats.py).  Apliquem algunes regles d'ordenació que podeu revisar al codi. Per resumir-les:
