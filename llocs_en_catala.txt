@@ -449,20 +449,16 @@ Primers 500000 llocs
  https://onlinelearning.berkeley.edu
  https://faro.es
  https://lamallorquina.es
- https://www.cejamcloud.com.br
  https://www.fmirobcn.org
  https://www.eportem.es
  https://www.youtube.film
- https://student.osu.cz
  http://www.tus.es
  https://www.cccb.org
  https://ro-mastodon.puyo.jp
  https://lacambradetothom.cambrabcn.org
  https://www.imp.polymtl.ca
  https://offres.samsung.fr
- https://roundcube.hhu.de
  https://qoto.org
- https://livelink.cbcrc.ca
  https://school.moodledemo.net
  https://www.vpuniv.org
  https://cursos.inslaferreria.net
@@ -474,5 +470,5 @@ Primers 500000 llocs
  https://prevodyonline.eu
  https://www.dwservice.net
 
-Nombre d'adreçes per domini de primer nivell: com: 177, cat: 141, es: 40, org: 39, net: 21, edu: 9, eu: 6, ad: 5, info: 4, io: 3, barcelona: 3, fr: 3, jp: 2, coop: 2, cz: 2, ca: 2, is: 1, store: 1, fi: 1, bar: 1, cloud: 1, social: 1, download: 1, br: 1, film: 1, de: 1, 
+Nombre d'adreçes per domini de primer nivell: com: 177, cat: 141, es: 40, org: 39, net: 21, edu: 9, eu: 6, ad: 5, info: 4, io: 3, barcelona: 3, fr: 3, jp: 2, coop: 2, is: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, film: 1, ca: 1, 
 Nota: s'han analitzat les primeres 497402 URL de les 1000000 disponibles
