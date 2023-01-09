@@ -96,3 +96,11 @@ https://cloudoffice.fibercorp.com.ar
 https://zimbra.uhu.es
 https://cas2.uvsq.fr
 https://owa.fecredit.com.vn
+https://owa.uni-giessen.de
+https://roundcube.bhosted.nl
+https://auth.ulb.be
+https://www.swiftdrivers.com
+https://nam12.safelinks.protection.outlook.com
+https://lms.uotechnology.edu.iq
+
+

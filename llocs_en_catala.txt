@@ -266,6 +266,8 @@ Primers 500000 llocs
  https://www.teatrepoliorama.com
  https://www.catalunya.com
  https://www.capgros.com
+ https://www.swiftdrivers.com
+ https://www.electromaps.com
  https://rodamots.cat
  https://xipgroc.cat
  http://www.hoqueipatins.fecapa.cat
@@ -354,10 +356,8 @@ Primers 500000 llocs
  https://alanniaresorts.com
  http://www.arduinoblocks.com
  https://joieriagrau.com
- https://mycargomanager.appslatam.com
  https://aprendeconrey.com
  https://moodle.inscanroca.com
- https://drive.classino.com
  https://spotify-top.com
  https://zimbra.immo-facile.com
  https://tmesa.com
@@ -366,6 +366,7 @@ Primers 500000 llocs
  https://connect.jobteaser.com
  https://cablematic.com
  https://baixakigeeks.com
+ https://nam12.safelinks.protection.outlook.com
  https://www.ibsalut.es
  https://www.salvador-dali.org
  https://www.il3.ub.edu
@@ -444,9 +445,7 @@ Primers 500000 llocs
  https://www.buscocotxe.ad
  https://www.buscofeina.ad
  http://enxaneta.info
- https://cz.inclusion.gob.ec
  https://unate.org
- https://sso.universite-paris-saclay.fr
  https://www.mobilitat.ad
  https://z.imt.fr
  https://onlinelearning.berkeley.edu
@@ -456,16 +455,12 @@ Primers 500000 llocs
  https://www.fmirobcn.org
  https://www.eportem.es
  https://www.youtube.film
- https://cloudoffice.fibercorp.com.ar
  https://student.osu.cz
- https://zimbra.uhu.es
  http://www.tus.es
  https://www.cccb.org
- https://cas2.uvsq.fr
  https://ro-mastodon.puyo.jp
  https://lacambradetothom.cambrabcn.org
  https://www.imp.polymtl.ca
- https://owa.fecredit.com.vn
  https://offres.samsung.fr
  https://roundcube.hhu.de
  https://qoto.org
@@ -474,15 +469,13 @@ Primers 500000 llocs
  https://www.vpuniv.org
  https://cursos.inslaferreria.net
  https://moodle.net.fje.edu
- https://auth.ulb.be
- https://roundcube.bhosted.nl
- https://owa.uni-giessen.de
  https://bons.elvendrell.net
  https://getfedora.org
  https://www.carpetaciutadana.org
  https://www.imasmallorca.net
  https://prevodyonline.eu
  https://www.dwservice.net
+ https://lms.uotechnology.edu.iq
 
-Nombre d'adreçes per domini de primer nivell: com: 178, cat: 141, es: 41, org: 39, net: 21, edu: 9, eu: 6, ad: 5, fr: 5, info: 4, io: 3, barcelona: 3, jp: 2, coop: 2, cz: 2, ca: 2, de: 2, is: 1, store: 1, fi: 1, bar: 1, cloud: 1, social: 1, download: 1, ec: 1, br: 1, film: 1, ar: 1, vn: 1, be: 1, nl: 1, 
-Nota: s'han analitzat les primeres 493139 URL de les 1000000 disponibles
+Nombre d'adreçes per domini de primer nivell: com: 179, cat: 141, es: 40, org: 39, net: 21, edu: 9, eu: 6, ad: 5, info: 4, io: 3, barcelona: 3, fr: 3, jp: 2, coop: 2, cz: 2, ca: 2, is: 1, store: 1, fi: 1, bar: 1, cloud: 1, social: 1, download: 1, br: 1, film: 1, de: 1, iq: 1, 
+Nota: s'han analitzat les primeres 497402 URL de les 1000000 disponibles
