@@ -110,3 +110,5 @@ https://wimap.feld.cvut.cz
 https://www.vpuniv.org
 https://www.imp.polymtl.ca
 https://offres.samsung.fr
+https://onlinelearning.berkeley.edu
+https://z.imt.fr

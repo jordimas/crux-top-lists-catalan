@@ -446,8 +446,6 @@ Primers 500000 llocs
  http://enxaneta.info
  https://unate.org
  https://www.mobilitat.ad
- https://z.imt.fr
- https://onlinelearning.berkeley.edu
  https://faro.es
  https://lamallorquina.es
  https://www.fmirobcn.org
@@ -469,5 +467,5 @@ Primers 500000 llocs
  https://www.dwservice.net
  https://comercial.creditandorragroup.ad
 
-Nombre d'adreçes per domini de primer nivell: com: 178, cat: 141, es: 40, org: 38, net: 21, edu: 9, ad: 6, eu: 6, info: 4, io: 3, barcelona: 3, jp: 2, coop: 2, fr: 2, is: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, film: 1, 
+Nombre d'adreçes per domini de primer nivell: com: 178, cat: 141, es: 40, org: 38, net: 21, edu: 8, ad: 6, eu: 6, info: 4, io: 3, barcelona: 3, jp: 2, coop: 2, is: 1, fr: 1, store: 1, fi: 1, bar: 1, cz: 1, cloud: 1, social: 1, download: 1, film: 1, 
 Nota: s'han analitzat les primeres 500000 URL de les 1000000 disponibles
