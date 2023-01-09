@@ -107,3 +107,6 @@ https://roundcube.hhu.de
 https://livelink.cbcrc.ca
 https://student.osu.cz
 https://wimap.feld.cvut.cz
+https://www.vpuniv.org
+https://www.imp.polymtl.ca
+https://offres.samsung.fr
